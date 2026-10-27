@@ -1,16 +1,10 @@
-import json
+import os
 from datetime import datetime
 from pathlib import Path
 
 import pandas as pd
+import psutil
 import streamlit as st
-
-from detector import scan_processes, scan_folder
-
-
-# ==========================================================
-# 1. PAGE CONFIGURATION
-# ==========================================================
 
 st.set_page_config(
     page_title="Keylogger Detection System",
@@ -19,679 +13,300 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-
-# ==========================================================
-# 2. PROJECT PATHS
-# ==========================================================
-
 BASE_DIR = Path(__file__).resolve().parent
 REPORT_DIR = BASE_DIR / "reports"
-
-# Create the reports folder safely.
-if REPORT_DIR.exists() and not REPORT_DIR.is_dir():
-    st.error(
-        "The path named 'reports' is a file, not a folder. "
-        "Rename that file and restart the application."
-    )
-    st.stop()
-
 REPORT_DIR.mkdir(parents=True, exist_ok=True)
 
+PROCESS_TERMS = ["keylogger", "keylog", "keystroke", "pynput", "pykeylogger"]
+FILE_TERMS = ["keylogger", "keylog", "keystroke", "stealer", "credential_dump"]
+SUSPICIOUS_EXTENSIONS = [".scr", ".pif"]
 
-# ==========================================================
-# 3. CUSTOM CSS
-# ==========================================================
+st.markdown("""
+<style>
+.stApp {background:#f4f7fb;color:#172b4d}
+[data-testid="stSidebar"] {background:#10243a}
+[data-testid="stSidebar"] * {color:white !important}
+.main-title {font-size:34px;font-weight:800;color:#163a63}
+.subtitle {font-size:16px;color:#52677e;margin-bottom:22px}
+.section-heading {font-size:25px;font-weight:750;color:#163a63}
+.metric-card {background:white;padding:16px;border-radius:12px;border:1px solid #dce5ef;margin-bottom:10px}
+.metric-label {color:#61758a;font-size:14px}
+.metric-value {color:#163a63;font-size:28px;font-weight:800}
+div.stButton>button[kind="primary"] {background:#1677e8;color:white;border:0;border-radius:8px;min-height:44px;font-weight:700}
+.footer {text-align:center;color:#718096;padding-top:20px;font-size:13px}
+</style>
+""", unsafe_allow_html=True)
 
-st.markdown(
-    """
-    <style>
+# Initialise state before the navigation widget is created.
+if "main_navigation" not in st.session_state:
+    st.session_state["main_navigation"] = "Dashboard"
+for key in ("process_results", "folder_results"):
+    if key not in st.session_state:
+        st.session_state[key] = None
+if "report_history" not in st.session_state:
+    st.session_state["report_history"] = []
 
-    /* Main application background */
-    .stApp {
-        background-color: #F3F6FB;
-        color: #172033;
-    }
+def navigate_to(page_name):
+    # This callback runs before the next render, so changing the radio key is safe.
+    st.session_state["main_navigation"] = page_name
 
-    /* Headings */
-    h1, h2, h3 {
-        color: #14213D !important;
-        font-weight: 700 !important;
-    }
-
-    /* Main text */
-    .stApp p,
-    .stApp label,
-    .stApp li {
-        color: #263449;
-    }
-
-    /* Sidebar */
-    section[data-testid="stSidebar"] {
-        background-color: #14213D;
-    }
-
-    section[data-testid="stSidebar"] h1,
-    section[data-testid="stSidebar"] h2,
-    section[data-testid="stSidebar"] h3,
-    section[data-testid="stSidebar"] p,
-    section[data-testid="stSidebar"] label,
-    section[data-testid="stSidebar"] span {
-        color: #FFFFFF !important;
-    }
-
-    /* Metric cards */
-    div[data-testid="stMetric"] {
-        background-color: #FFFFFF;
-        border: 1px solid #DCE3EE;
-        border-radius: 12px;
-        padding: 18px;
-        box-shadow: 0 2px 8px rgba(20, 33, 61, 0.05);
-    }
-
-    div[data-testid="stMetricLabel"] {
-        color: #334155 !important;
-    }
-
-    div[data-testid="stMetricValue"] {
-        color: #14213D !important;
-    }
-
-    /* Buttons */
-    .stButton button,
-    .stDownloadButton button {
-        border-radius: 8px;
-        font-weight: 600;
-        min-height: 42px;
-    }
-
-    /* Tables */
-    div[data-testid="stDataFrame"] {
-        background-color: #FFFFFF;
-        border-radius: 10px;
-    }
-
-    /* Footer */
-    .footer-text {
-        text-align: center;
-        color: #64748B;
-        font-size: 13px;
-        padding: 12px;
-    }
-
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
-
-
-# ==========================================================
-# 4. HELPER FUNCTIONS
-# ==========================================================
-
-def save_report(report_type, results):
-    """Save scan results as a JSON file."""
-
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
-
-    report_path = REPORT_DIR / (
-        f"{report_type}_{timestamp}.json"
+def metric(label, value):
+    st.markdown(
+        f'<div class="metric-card"><div class="metric-label">{label}</div>'
+        f'<div class="metric-value">{value}</div></div>',
+        unsafe_allow_html=True,
     )
 
-    report_data = {
-        "project": "Keylogger Detection System",
-        "report_type": report_type,
-        "created_at": datetime.now().isoformat(
-            timespec="seconds"
-        ),
-        "total_items": len(results),
-        "results": results,
-    }
+def flagged_count(df):
+    if df is None or df.empty or "Risk Classification" not in df.columns:
+        return 0
+    return int((df["Risk Classification"] == "Review").sum())
 
-    with report_path.open("w", encoding="utf-8") as file:
-        json.dump(
-            report_data,
-            file,
-            indent=4,
-            default=str,
-        )
+def scan_processes():
+    rows = []
+    for proc in psutil.process_iter(["pid", "name", "exe", "username", "cmdline", "status"]):
+        try:
+            info = proc.info
+            name = str(info.get("name") or "Unknown")
+            exe = str(info.get("exe") or "Unavailable")
+            user = str(info.get("username") or "Unavailable")
+            cmd = info.get("cmdline") or []
+            if isinstance(cmd, list):
+                cmd = " ".join(str(part) for part in cmd)
+            text = f"{name} {exe} {cmd}".lower()
+            indicators = [f"Configured keyword match: {term}" for term in PROCESS_TERMS if term in text]
+            normal_path = exe.lower().replace("\\", "/")
+            if any(p in normal_path for p in ("/appdata/local/temp/", "/windows/temp/", "/users/public/")):
+                indicators.append("Executable in a temporary/public-writable location")
+            rows.append({
+                "Process ID": info.get("pid"),
+                "Process Name": name,
+                "Executable Path": exe,
+                "User Account": user,
+                "Status": info.get("status") or "Unknown",
+                "Detection Indicators": "; ".join(indicators) if indicators else "None detected",
+                "Risk Classification": "Review" if indicators else "No indicator found",
+            })
+        except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
+            continue
+        except Exception:
+            continue
+    df = pd.DataFrame(rows)
+    if not df.empty:
+        df = df.sort_values(["Risk Classification", "Process Name"]).reset_index(drop=True)
+    return df
 
-    return report_path
+def scan_folder(folder_text):
+    folder = Path(folder_text).expanduser()
+    if not folder.exists():
+        raise FileNotFoundError("The selected folder does not exist.")
+    if not folder.is_dir():
+        raise NotADirectoryError("The selected path is not a folder.")
+    rows = []
+    for root, dirs, files in os.walk(folder):
+        dirs[:] = [d for d in dirs if d.lower() not in {"$recycle.bin", "system volume information"}]
+        for filename in files:
+            path = Path(root) / filename
+            low = filename.lower()
+            indicators = [f"Filename keyword match: {term}" for term in FILE_TERMS if term in low]
+            if path.suffix.lower() in SUSPICIOUS_EXTENSIONS:
+                indicators.append(f"Extension for review: {path.suffix.lower()}")
+            try:
+                size = path.stat().st_size
+            except (OSError, PermissionError):
+                size = None
+            rows.append({
+                "File Name": filename,
+                "File Path": str(path),
+                "Extension": path.suffix.lower() or "No extension",
+                "Size (Bytes)": size,
+                "Detection Indicators": "; ".join(indicators) if indicators else "None detected",
+                "Risk Classification": "Review" if indicators else "No indicator found",
+            })
+    return pd.DataFrame(rows)
 
+def save_report(df, report_type):
+    stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    csv_path = REPORT_DIR / f"{report_type}_{stamp}.csv"
+    json_path = REPORT_DIR / f"{report_type}_{stamp}.json"
+    df.to_csv(csv_path, index=False)
+    json_path.write_text(df.to_json(orient="records", indent=2, force_ascii=False), encoding="utf-8")
+    st.session_state["report_history"].append({
+        "Report Type": report_type,
+        "Created": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "CSV File": csv_path.name,
+        "JSON File": json_path.name,
+        "Rows": len(df),
+    })
 
-def show_scan_results(results, report_name):
-    """Display results and provide CSV and JSON downloads."""
-
-    if results is None:
-        st.warning("The scanner did not return any results.")
+def downloads(df, report_type):
+    if df is None or df.empty:
+        st.info("No results available to download yet.")
         return
+    c1, c2 = st.columns(2)
+    with c1:
+        st.download_button("⬇️ Download CSV Report", df.to_csv(index=False).encode("utf-8"),
+            f"{report_type}_report.csv", "text/csv", use_container_width=True, key=f"{report_type}_csv")
+    with c2:
+        st.download_button("⬇️ Download JSON Report",
+            df.to_json(orient="records", indent=2, force_ascii=False).encode("utf-8"),
+            f"{report_type}_report.json", "application/json", use_container_width=True, key=f"{report_type}_json")
 
-    # Convert results into a list of dictionaries.
-    if isinstance(results, pd.DataFrame):
-        df = results.copy()
-
-    elif isinstance(results, list):
-        df = pd.DataFrame(results)
-
-    elif isinstance(results, dict):
-        df = pd.DataFrame(results)
-
-    else:
-        st.error(
-            "The scanner returned an unsupported result format."
-        )
-        return
-
-    if df.empty:
-        st.info("No results were returned by the scanner.")
-        return
-
-    st.success("Scan completed successfully!")
-
-    # Display metrics.
-    risk_column = next(
-        (
-            col for col in
-            ["risk_level", "risk", "severity", "status"]
-            if col in df.columns
-        ),
-        None,
+# Sidebar navigation
+with st.sidebar:
+    st.markdown("## 🛡️ Security Center")
+    st.write("Keylogger Detection System")
+    st.divider()
+    page = st.radio(
+        "Navigation",
+        ["Dashboard", "Process Scanner", "Folder Scanner", "Reports", "About"],
+        key="main_navigation",
     )
+    st.divider()
+    st.caption("Python Cybersecurity Project")
+    st.caption("Educational use only")
 
-    if risk_column:
-        risk_values = (
-            df[risk_column]
-            .fillna("")
-            .astype(str)
-            .str.lower()
-        )
-
-        flagged_count = int(
-            risk_values.isin(
-                ["high", "critical", "review", "suspicious"]
-            ).sum()
-        )
-    else:
-        flagged_count = 0
-
-    col1, col2, col3 = st.columns(3)
-
-    col1.metric(
-        "Items Inspected",
-        len(df),
-    )
-
-    col2.metric(
-        "Items Flagged",
-        flagged_count,
-    )
-
-    col3.metric(
-        "Not Flagged",
-        len(df) - flagged_count,
-    )
-
-    st.subheader("Scan Results")
-
-    st.dataframe(
-        df,
-        use_container_width=True,
-        hide_index=True,
-    )
-
-    if flagged_count:
-        st.warning(
-            "Some items matched the configured detection rules. "
-            "Investigate them before deciding whether they are "
-            "malicious. A match is not proof of malware."
-        )
-    else:
-        st.info(
-            "No items matched the supported risk categories. "
-            "This does not guarantee that the device is safe."
-        )
-
-    # Prepare JSON-safe records.
-    json_records = json.loads(
-        df.to_json(
-            orient="records",
-            date_format="iso",
-        )
-    )
-
-    st.subheader("Download Reports")
-
-    col1, col2 = st.columns(2)
-
-    with col1:
-        st.download_button(
-            label="⬇ Download CSV",
-            data=df.to_csv(index=False).encode("utf-8"),
-            file_name=f"{report_name}.csv",
-            mime="text/csv",
-            use_container_width=True,
-        )
-
-    with col2:
-        st.download_button(
-            label="⬇ Download JSON",
-            data=json.dumps(
-                json_records,
-                indent=4,
-            ),
-            file_name=f"{report_name}.json",
-            mime="application/json",
-            use_container_width=True,
-        )
-
-    # Save a copy to the local reports directory.
-    try:
-        report_path = save_report(
-            report_name,
-            json_records,
-        )
-
-        st.caption(
-            f"Local report saved: {report_path.name}"
-        )
-
-    except OSError as error:
-        st.warning(
-            f"Could not save a local report: {error}"
-        )
-
-
-# ==========================================================
-# 5. SIDEBAR NAVIGATION
-# ==========================================================
-
-st.sidebar.markdown(
-    """
-    <h2>🛡️ Security Center</h2>
-    <p>Keylogger Detection System</p>
-    """,
-    unsafe_allow_html=True,
-)
-
-st.sidebar.divider()
-
-# Use one radio control as the source of navigation.
-page = st.sidebar.radio(
-    "Navigation",
-    [
-        "Dashboard",
-        "Process Scanner",
-        "Folder Scanner",
-        "Reports",
-        "About",
-    ],
-    key="main_navigation",
-)
-
-st.sidebar.divider()
-
-st.sidebar.caption("Python Cybersecurity Project")
-
-
-# ==========================================================
-# 6. APPLICATION HEADER
-# ==========================================================
-
-st.markdown(
-    """
-    <h1>🔐 Keylogger Detection System</h1>
-    <p style="font-size:17px;">
-        A Python-based cybersecurity dashboard for inspecting
-        running process metadata and reviewing suspicious
-        filename indicators.
-    </p>
-    """,
-    unsafe_allow_html=True,
-)
-
-st.warning(
-    "Educational security tool. Detection rules are limited: "
-    "a flagged item is not proof of malware, and an unflagged "
-    "item does not guarantee that a device is safe."
-)
-
-
-# ==========================================================
-# 7. DASHBOARD PAGE
-# ==========================================================
+st.markdown('<div class="main-title">🔐 Keylogger Detection System</div>', unsafe_allow_html=True)
+st.markdown('<div class="subtitle">A Python cybersecurity dashboard for inspecting running process metadata and reviewing suspicious filenames.</div>', unsafe_allow_html=True)
+st.warning("Educational tool: a flagged item is not proof of malware, and no flagged items does not guarantee that a device is safe.")
 
 if page == "Dashboard":
-
-    st.subheader("Security Overview")
-
-    st.write(
-        "Use the navigation menu on the left to inspect "
-        "running processes, review folder contents, and "
-        "generate security reports."
-    )
-
-    col1, col2, col3 = st.columns(3)
-
-    col1.metric(
-        "Detection Modules",
-        "2",
-    )
-
-    col2.metric(
-        "Keyboard Recording",
-        "Disabled",
-    )
-
-    col3.metric(
-        "Report Formats",
-        "CSV / JSON",
-    )
-
-    st.divider()
-
-    st.subheader("Available Security Tools")
-
-    card1, card2 = st.columns(2)
-
-    with card1:
-        st.markdown(
-            """
-            ### 🖥️ Process Scanner
-
-            Inspect running process metadata for configured
-            suspicious indicators.
-
-            **Features**
-            - Process name inspection
-            - Process metadata results
-            - CSV and JSON report downloads
-            """
-        )
-
-    with card2:
-        st.markdown(
-            """
-            ### 📁 Folder Scanner
-
-            Inspect filenames in a folder you are authorized
-            to access.
-
-            **Features**
-            - Filename inspection
-            - Configured indicator checks
-            - CSV report downloads
-            """
-        )
-
-    st.info(
-        "Select Process Scanner or Folder Scanner in the "
-        "left sidebar to begin."
-    )
-
-
-# ==========================================================
-# 8. PROCESS SCANNER PAGE
-# ==========================================================
+    st.markdown('<div class="section-heading">📊 Security Dashboard</div>', unsafe_allow_html=True)
+    p = st.session_state["process_results"]
+    f = st.session_state["folder_results"]
+    cols = st.columns(4)
+    for col, (label, value) in zip(cols, [
+        ("Processes Scanned", len(p) if p is not None else 0),
+        ("Processes to Review", flagged_count(p)),
+        ("Files Inspected", len(f) if f is not None else 0),
+        ("Files to Review", flagged_count(f)),
+    ]):
+        with col:
+            metric(label, value)
+    st.markdown("### Available Security Tools")
+    left, right = st.columns(2)
+    with left:
+        st.markdown("#### 🖥️ Process Scanner")
+        st.write("Inspect running process names, executable paths, and available user metadata.")
+        st.markdown("- Process name inspection\n- Metadata results\n- CSV and JSON report downloads")
+        st.button("Open Process Scanner", type="primary", use_container_width=True,
+                   key="go_process", on_click=navigate_to, args=("Process Scanner",))
+    with right:
+        st.markdown("#### 📁 Folder Scanner")
+        st.write("Inspect filenames in a folder you are authorized to access.")
+        st.markdown("- Filename inspection\n- Basic indicator checks\n- CSV and JSON report downloads")
+        st.button("Open Folder Scanner", type="primary", use_container_width=True,
+                   key="go_folder", on_click=navigate_to, args=("Folder Scanner",))
+    st.markdown("### Recent Process Results")
+    if p is not None and not p.empty:
+        st.dataframe(p.head(10), use_container_width=True, hide_index=True)
+    else:
+        st.info("No scan has been performed yet. Choose Process Scanner in the sidebar.")
 
 elif page == "Process Scanner":
-
-    st.subheader("🖥️ Running Process Scanner")
-
-    st.write(
-        "Inspect running process metadata for configured "
-        "name-based indicators."
-    )
-
-    st.info(
-        "This scanner does not record keystrokes, capture "
-        "typed text, or collect passwords."
-    )
-
-    if st.button(
-        "▶ Start Process Scan",
-        type="primary",
-        use_container_width=True,
-        key="start_process_scan",
-    ):
-
+    st.markdown('<div class="section-heading">🖥️ Running Process Scanner</div>', unsafe_allow_html=True)
+    st.write("Inspect running process metadata for configured suspicious indicators.")
+    st.info("This scanner checks process names, executable paths, and available account metadata. It does not record keystrokes or passwords.")
+    if st.button("▶ Start Process Scan", type="primary", use_container_width=True, key="start_process_scan"):
         try:
-            with st.spinner(
-                "Inspecting running processes..."
-            ):
-                results = scan_processes()
-
-            st.session_state["process_scan_results"] = results
-
-        except Exception as error:
-            st.error(
-                f"Process scan failed: {error}"
-            )
-
-    # Keep results visible after Streamlit reruns.
-    if "process_scan_results" in st.session_state:
-        st.divider()
-
-        show_scan_results(
-            st.session_state["process_scan_results"],
-            "process_scan",
-        )
-
-
-# ==========================================================
-# 9. FOLDER SCANNER PAGE
-# ==========================================================
+            with st.spinner("Scanning running processes..."):
+                result = scan_processes()
+            st.session_state["process_results"] = result
+            if not result.empty:
+                save_report(result, "process_scan")
+            st.success(f"Scan completed: {len(result)} processes inspected.")
+        except Exception as exc:
+            st.error(f"Process scan failed: {exc}")
+    result = st.session_state["process_results"]
+    if result is not None:
+        st.markdown("### Process Scan Results")
+        if result.empty:
+            st.warning("No process information could be collected.")
+        else:
+            a, b, c = st.columns(3)
+            with a: metric("Processes", len(result))
+            with b: metric("Flagged for Review", flagged_count(result))
+            with c: metric("No Indicator Found", len(result) - flagged_count(result))
+            choice = st.selectbox("Filter results", ["All Processes", "Review Only", "No Indicator Found"], key="process_filter")
+            shown = result
+            if choice == "Review Only":
+                shown = result[result["Risk Classification"] == "Review"]
+            elif choice == "No Indicator Found":
+                shown = result[result["Risk Classification"] == "No indicator found"]
+            st.dataframe(shown, use_container_width=True, hide_index=True)
+            downloads(result, "process_scan")
+            st.caption("Detection indicators are heuristic signals, not confirmed malware findings.")
 
 elif page == "Folder Scanner":
-
-    st.subheader("📁 Folder Scanner")
-
-    st.write(
-        "Inspect filenames inside a folder you are authorized "
-        "to access."
-    )
-
-    st.warning(
-        "Filename-based detection is limited. A file extension "
-        "or filename alone cannot prove that a file is malicious."
-    )
-
-    default_folder = str(
-        Path.home() / "Downloads"
-    )
-
-    folder_path = st.text_input(
-        "Enter the folder path",
-        value=default_folder,
-        placeholder="C:\\Users\\YourName\\Downloads",
-    )
-
-    if st.button(
-        "▶ Scan Folder",
-        type="primary",
-        use_container_width=True,
-        key="start_folder_scan",
-    ):
-
-        if not folder_path.strip():
-            st.error("Please enter a folder path.")
-
-        elif not Path(folder_path).expanduser().is_dir():
-            st.error(
-                "The specified folder does not exist. "
-                "Check the path and try again."
-            )
-
+    st.markdown('<div class="section-heading">📁 Folder Scanner</div>', unsafe_allow_html=True)
+    st.write("Inspect filenames in a folder you own or have permission to examine.")
+    st.info("This scanner checks filenames and extensions only. It does not execute or modify files.")
+    folder_path = st.text_input("Folder path", value=str(Path.home() / "Downloads"),
+                                placeholder=r"C:\Users\YourName\Downloads", key="folder_path_input")
+    if st.button("▶ Scan Folder", type="primary", use_container_width=True, key="start_folder_scan"):
+        try:
+            with st.spinner("Inspecting folder filenames..."):
+                result = scan_folder(folder_path)
+            st.session_state["folder_results"] = result
+            if not result.empty:
+                save_report(result, "folder_scan")
+            st.success(f"Folder scan completed: {len(result)} files inspected.")
+        except (FileNotFoundError, NotADirectoryError) as exc:
+            st.error(str(exc))
+        except PermissionError:
+            st.error("Permission denied. Choose a folder you are authorized to inspect.")
+        except Exception as exc:
+            st.error(f"Folder scan failed: {exc}")
+    result = st.session_state["folder_results"]
+    if result is not None:
+        st.markdown("### Folder Scan Results")
+        if result.empty:
+            st.info("No files were found in the selected folder.")
         else:
-            try:
-                with st.spinner(
-                    "Inspecting folder filenames..."
-                ):
-                    results = scan_folder(
-                        folder_path.strip()
-                    )
-
-                st.session_state["folder_scan_results"] = results
-
-            except Exception as error:
-                st.error(
-                    f"Folder scan failed: {error}"
-                )
-
-    if "folder_scan_results" in st.session_state:
-        st.divider()
-
-        show_scan_results(
-            st.session_state["folder_scan_results"],
-            "folder_scan",
-        )
-
-
-# ==========================================================
-# 10. REPORTS PAGE
-# ==========================================================
+            a, b, c = st.columns(3)
+            with a: metric("Files Inspected", len(result))
+            with b: metric("Flagged for Review", flagged_count(result))
+            with c: metric("No Indicator Found", len(result) - flagged_count(result))
+            choice = st.selectbox("Filter files", ["All Files", "Review Only", "No Indicator Found"], key="folder_filter")
+            shown = result
+            if choice == "Review Only":
+                shown = result[result["Risk Classification"] == "Review"]
+            elif choice == "No Indicator Found":
+                shown = result[result["Risk Classification"] == "No indicator found"]
+            st.dataframe(shown, use_container_width=True, hide_index=True)
+            downloads(result, "folder_scan")
 
 elif page == "Reports":
-
-    st.subheader("📊 Saved Security Reports")
-
-    st.write(
-        "Review and download JSON reports created by previous "
-        "scans in this local project."
-    )
-
-    report_files = sorted(
-        REPORT_DIR.glob("*.json"),
-        key=lambda file: file.stat().st_mtime,
-        reverse=True,
-    )
-
-    if not report_files:
-        st.info(
-            "No saved reports are available yet. "
-            "Run a scan to create your first report."
-        )
-
-    else:
-        st.metric(
-            "Saved Reports",
-            len(report_files),
-        )
-
-        for report_file in report_files:
-
-            with st.expander(report_file.name):
-
-                try:
-                    report_text = report_file.read_text(
-                        encoding="utf-8"
-                    )
-
-                    report_data = json.loads(report_text)
-
-                    st.write(
-                        "**Report type:**",
-                        report_data.get(
-                            "report_type",
-                            "Unknown",
-                        ),
-                    )
-
-                    st.write(
-                        "**Created at:**",
-                        report_data.get(
-                            "created_at",
-                            "Unknown",
-                        ),
-                    )
-
-                    st.write(
-                        "**Items:**",
-                        report_data.get(
-                            "total_items",
-                            0,
-                        ),
-                    )
-
-                    st.download_button(
-                        "⬇ Download Report",
-                        data=report_text,
-                        file_name=report_file.name,
-                        mime="application/json",
-                        key=f"download_{report_file.name}",
-                    )
-
-                except (
-                    OSError,
-                    json.JSONDecodeError,
-                ) as error:
-                    st.error(
-                        f"Could not read this report: {error}"
-                    )
-
-
-# ==========================================================
-# 11. ABOUT PAGE
-# ==========================================================
+    st.markdown('<div class="section-heading">📄 Security Reports</div>', unsafe_allow_html=True)
+    tab1, tab2, tab3 = st.tabs(["Process Report", "Folder Report", "Saved Reports"])
+    with tab1:
+        data = st.session_state["process_results"]
+        if data is None:
+            st.info("Run a process scan to create this report.")
+        else:
+            st.dataframe(data, use_container_width=True, hide_index=True)
+            downloads(data, "process_scan")
+    with tab2:
+        data = st.session_state["folder_results"]
+        if data is None:
+            st.info("Run a folder scan to create this report.")
+        else:
+            st.dataframe(data, use_container_width=True, hide_index=True)
+            downloads(data, "folder_scan")
+    with tab3:
+        if st.session_state["report_history"]:
+            st.dataframe(pd.DataFrame(st.session_state["report_history"]), use_container_width=True, hide_index=True)
+            st.caption(f"Local reports folder: {REPORT_DIR}")
+        else:
+            st.info("No reports have been created during this session.")
 
 elif page == "About":
-
-    st.subheader("ℹ️ About the Project")
-
-    st.markdown(
-        """
-        ### Keylogger Detection System Using Python
-
-        **Objective**
-
-        Demonstrate basic cybersecurity monitoring using
-        Python and a Streamlit dashboard.
-
-        **Main features**
-
-        - Inspect running process metadata.
-        - Review configured suspicious indicators.
-        - Inspect filenames in selected folders.
-        - Display scan results in tables.
-        - Download CSV and JSON reports.
-
-        **Technologies used**
-
-        - Python
-        - Streamlit
-        - Pandas
-        - Psutil
-        - JSON
-
-        **Limitations**
-
-        The project uses basic detection rules. It can produce
-        false positives and may miss sophisticated threats.
-
-        It does not capture keystrokes, collect passwords,
-        or automatically terminate processes.
-
-        It is an educational demonstration and not a replacement
-        for professional endpoint security software.
-        """
-    )
-
-    st.info(
-        "Only inspect devices and files that you own or "
-        "have permission to investigate."
-    )
-
-
-# ==========================================================
-# 12. FOOTER
-# ==========================================================
+    st.markdown('<div class="section-heading">ℹ️ About This Project</div>', unsafe_allow_html=True)
+    st.write("Keylogger Detection System is an educational Python cybersecurity dashboard.")
+    st.markdown("- **Process Scanner:** reviews running process metadata.\n- **Folder Scanner:** checks filenames for configured indicators.\n- **Reports:** exports CSV and JSON.\n- **Dashboard:** summarizes scan results.")
+    st.write("Technologies: Python, Streamlit, Pandas, and psutil.")
+    st.warning("This is not a full antivirus product. It does not capture keystrokes, inspect every file's contents, or guarantee malware detection.")
+    st.info("Only inspect devices and folders you own or are authorized to examine.")
 
 st.divider()
-
-st.markdown(
-    """
-    <div class="footer-text">
-        🔐 Keylogger Detection System |
-        Built with Python and Streamlit
-    </div>
-    """,
-    unsafe_allow_html=True,
-)
+st.markdown('<div class="footer">🔐 Keylogger Detection System | Built with Python and Streamlit</div>', unsafe_allow_html=True)
