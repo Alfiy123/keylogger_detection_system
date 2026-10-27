@@ -1,0 +1,295 @@
+Process ID,Process Name,Executable Path,User Account,Status,Detection Indicators,Risk Classification
+15216,AMDRSServ.exe,C:\Program Files\AMD\CNext\CNext\AMDRSServ.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+18224,AMDRSSrcExt.exe,C:\Program Files\AMD\CNext\CNext\AMDRSSrcExt.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+2988,AUEPDU.exe,C:\Program Files\AMD\Performance Profile Client\AUEPDU.exe,Unavailable,running,None detected,No indicator found
+7044,AUEPMaster.exe,C:\Program Files\AMD\Performance Profile Client\AUEPMaster.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+7244,AggregatorHost.exe,C:\Windows\System32\AggregatorHost.exe,Unavailable,running,None detected,No indicator found
+5164,AnyDesk.exe,C:\Program Files (x86)\AnyDesk\AnyDesk.exe,Unavailable,running,None detected,No indicator found
+3216,AppActions.exe,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\AppActions.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+20468,ApplicationFrameHost.exe,C:\Windows\System32\ApplicationFrameHost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+14732,CPUMetricsServer.exe,C:\Program Files\AMD\CNext\CNext\CPUMetricsServer.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+2580,Code.exe,C:\Program Files\Microsoft VS Code\Code.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+13876,Code.exe,C:\Program Files\Microsoft VS Code\Code.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+14824,Code.exe,C:\Program Files\Microsoft VS Code\Code.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+14948,Code.exe,C:\Program Files\Microsoft VS Code\Code.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+15036,Code.exe,C:\Program Files\Microsoft VS Code\Code.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+17084,Code.exe,C:\Program Files\Microsoft VS Code\Code.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+18696,Code.exe,C:\Program Files\Microsoft VS Code\Code.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+19168,Code.exe,C:\Program Files\Microsoft VS Code\Code.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+22868,Code.exe,C:\Program Files\Microsoft VS Code\Code.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+24424,Code.exe,C:\Program Files\Microsoft VS Code\Code.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+8364,CrossDeviceResume.exe,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\CrossDeviceResume.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+8864,CrossDeviceService.exe,C:\Program Files\WindowsApps\MicrosoftWindows.CrossDevice_1.26082.74.0_x64__cw5n1h2txyewy\CrossDeviceService.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+5636,DefenderAiPlatformHost.exe,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26090.9-0\DefenderAiPlatformHost.exe,Unavailable,running,None detected,No indicator found
+14700,DefenderSessionHelper.exe,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26090.9-0\DefenderSessionHelper.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+16336,Dell.CoreServices.Client.exe,C:\Program Files\Dell\TechHub\Dell.CoreServices.Client.exe,Unavailable,running,None detected,No indicator found
+14184,Dell.Digital.Delivery.Service.SubAgent.exe,C:\Program Files\Dell\Dell-AlienwarePurchasedApps\SubAgent\Dell.Digital.Delivery.Service.SubAgent.exe,Unavailable,running,None detected,No indicator found
+21136,Dell.Remediation.Agent.exe,C:\Program Files\Dell\Dell Remediation\Dell.Remediation.Agent.exe,Unavailable,running,None detected,No indicator found
+17580,Dell.TechHub.Analytics.SubAgent.exe,C:\Program Files\Dell\DTP\AnalyticsSubAgent\Dell.TechHub.Analytics.SubAgent.exe,Unavailable,running,None detected,No indicator found
+17588,Dell.TechHub.DataManager.SubAgent.exe,C:\Program Files\Dell\DTP\DataManagerSubAgent\Dell.TechHub.DataManager.SubAgent.exe,Unavailable,running,None detected,No indicator found
+16756,Dell.TechHub.Diagnostics.SubAgent.exe,C:\Program Files\Dell\DTP\DiagnosticsSubAgent\Dell.TechHub.Diagnostics.SubAgent.exe,Unavailable,running,None detected,No indicator found
+13140,Dell.TechHub.Instrumentation.SubAgent.exe,C:\Program Files\Dell\DTP\InstrumentationSubAgent\Dell.TechHub.Instrumentation.SubAgent.exe,Unavailable,running,None detected,No indicator found
+18920,Dell.TechHub.Instrumentation.UserProcess.exe,C:\Program Files\Dell\DTP\InstrumentationSubAgent\Dell.TechHub.Instrumentation.UserProcess.exe,Unavailable,running,None detected,No indicator found
+5156,Dell.TechHub.exe,C:\Program Files\Dell\TechHub\Dell.TechHub.exe,Unavailable,running,None detected,No indicator found
+13072,Dell.UCA.Manager.exe,C:\Program Files\Dell\MyDell\Manager\Dell.UCA.Manager.exe,Unavailable,running,None detected,No indicator found
+16208,Dell.UUE.User.SubAgent.exe,C:\Program Files\Dell\PlatformUserSubAgent\Dell.UUE.User.SubAgent.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+16748,Dell.Update.SubAgent.exe,C:\Program Files (x86)\Dell\UpdateService\DCF\Dell.Update.SubAgent.exe,Unavailable,running,None detected,No indicator found
+18812,DellOptimizer.Systray.exe,C:\Program Files\Dell\DellOptimizer\Console\DellOptimizer.Systray.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+17700,DellOptimizer.exe,C:\Program Files\Dell\DellOptimizer\DellOptimizer.exe,Unavailable,running,None detected,No indicator found
+904,DellSupportAssistRemedationService.exe,C:\Program Files\Dell\SARemediation\agent\DellSupportAssistRemedationService.exe,Unavailable,running,None detected,No indicator found
+23712,FileCoAuth.exe,C:\Program Files\Microsoft OneDrive\26.183.0920.0005\FileCoAuth.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+23004,LockApp.exe,C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy\LockApp.exe,DESKTOP-HI9C74D\Varsha Ambre,stopped,None detected,No indicator found
+1620,LsaIso.exe,C:\Windows\System32\LsaIso.exe,Unavailable,running,None detected,No indicator found
+4116,MemCompression,MemCompression,Unavailable,running,None detected,No indicator found
+16000,MicrosoftStartFeedProvider.exe,C:\Program Files\WindowsApps\Microsoft.StartExperiencesApp_1.398.2.0_x64__8wekyb3d8bbwe\MicrosoftStartFeedProvider\MicrosoftStartFeedProvider.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+5240,MpDefenderCoreService.exe,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26090.9-0\MpDefenderCoreService.exe,Unavailable,running,None detected,No indicator found
+5508,MsMpEng.exe,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26090.9-0\MsMpEng.exe,Unavailable,running,None detected,No indicator found
+14900,NisSrv.exe,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26090.9-0\NisSrv.exe,Unavailable,running,None detected,No indicator found
+5300,OfficeClickToRun.exe,C:\Program Files\Common Files\microsoft shared\ClickToRun\OfficeClickToRun.exe,Unavailable,running,None detected,No indicator found
+19828,OpenConsole.exe,C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.24.12741.0_x64__8wekyb3d8bbwe\OpenConsole.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+13572,PhoneExperienceHost.exe,C:\Program Files\WindowsApps\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\PhoneExperienceHost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+14404,RadeonSoftware.exe,C:\Program Files\AMD\CNext\CNext\RadeonSoftware.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+232,Registry,Registry,Unavailable,running,None detected,No indicator found
+5264,RtkAudUService64.exe,C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_e50b3880a3abe2d3\RtkAudUService64.exe,Unavailable,running,None detected,No indicator found
+9764,RtkAudUService64.exe,C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_e50b3880a3abe2d3\RtkAudUService64.exe,Unavailable,running,None detected,No indicator found
+16372,RtkAudUService64.exe,C:\Windows\System32\DriverStore\FileRepository\realtekservice.inf_amd64_e50b3880a3abe2d3\RtkAudUService64.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+5540,RtkBtManServ.exe,C:\Windows\System32\DriverStore\FileRepository\rtkfilter-windows10-x64.inf_amd64_b237590aeac7c60d\RtkBtManServ.exe,Unavailable,running,None detected,No indicator found
+7940,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+9792,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+12912,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+17356,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+18036,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+18320,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+22876,RuntimeBroker.exe,C:\Windows\System32\RuntimeBroker.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+7372,SearchHost.exe,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\SearchHost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+12680,SearchIndexer.exe,C:\Windows\System32\SearchIndexer.exe,Unavailable,running,None detected,No indicator found
+24508,SearchProtocolHost.exe,C:\Windows\System32\SearchProtocolHost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+1812,SecurityHealthService.exe,C:\Windows\System32\SecurityHealthService.exe,Unavailable,running,None detected,No indicator found
+15308,SecurityHealthSystray.exe,C:\Windows\System32\SecurityHealthSystray.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+9600,ShellExperienceHost.exe,C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe,DESKTOP-HI9C74D\Varsha Ambre,stopped,None detected,No indicator found
+2072,ShellHost.exe,C:\Windows\System32\ShellHost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+11852,SpotifyLauncher.exe,C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.306.1921.0_x64__zpdnekdrzrea0\SpotifyLauncher.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+7472,StartMenuExperienceHost.exe,C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+21116,SupportAssistAgent.exe,C:\Program Files\Dell\SupportAssistAgent\bin\SupportAssistAgent.exe,Unavailable,running,None detected,No indicator found
+4,System,Unavailable,NT AUTHORITY\SYSTEM,running,None detected,No indicator found
+0,System Idle Process,Unavailable,NT AUTHORITY\SYSTEM,running,None detected,No indicator found
+20492,SystemSettings.exe,C:\Windows\ImmersiveControlPanel\SystemSettings.exe,DESKTOP-HI9C74D\Varsha Ambre,stopped,None detected,No indicator found
+14132,TextInputHost.exe,C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+17792,TranslucentTB.exe,C:\Program Files\WindowsApps\28017CharlesMilette.TranslucentTB_2026.2.0.0_x64__v826wp6bftszj\TranslucentTB.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+5316,UltraViewer_Service.exe,C:\Program Files (x86)\UltraViewer\UltraViewer_Service.exe,Unavailable,running,None detected,No indicator found
+188,Unknown,Unavailable,Unavailable,stopped,None detected,No indicator found
+18856,UserOOBEBroker.exe,C:\Windows\System32\oobe\UserOOBEBroker.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+9684,WINWORD.EXE,C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+5308,WavesAudioService.exe,C:\Windows\System32\DriverStore\FileRepository\wavesapo12de.inf_amd64_f5cc64c07bd9d637\WavesAudioService.exe,Unavailable,running,None detected,No indicator found
+17368,WavesSvc64.exe,C:\Windows\System32\DriverStore\FileRepository\wavesapo12de.inf_amd64_f5cc64c07bd9d637\WavesSvc64.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+5444,WavesSysSvc64.exe,C:\Windows\System32\DriverStore\FileRepository\wavesapo12de.inf_amd64_f5cc64c07bd9d637\WavesSysSvc64.exe,Unavailable,running,None detected,No indicator found
+9536,WidgetBoard.exe,C:\Program Files\WindowsApps\MicrosoftWindows.Client.WebExperience_526.21100.40.0_x64__cw5n1h2txyewy\WidgetBoard.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+7732,WidgetService.exe,C:\Program Files\WindowsApps\Microsoft.WidgetsPlatformRuntime_1.6.19.0_x64__8wekyb3d8bbwe\WidgetService\WidgetService.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+15312,WindowsTerminal.exe,C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.24.12741.0_x64__8wekyb3d8bbwe\WindowsTerminal.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+13940,WmiPrvSE.exe,C:\Windows\System32\wbem\WmiPrvSE.exe,Unavailable,running,None detected,No indicator found
+14148,WmiPrvSE.exe,C:\Windows\System32\wbem\WmiPrvSE.exe,Unavailable,running,None detected,No indicator found
+15136,WmiPrvSE.exe,C:\Windows\System32\wbem\WmiPrvSE.exe,Unavailable,running,None detected,No indicator found
+6136,ai.exe,C:\Program Files\Microsoft Office\root\vfs\ProgramFilesCommonX64\Microsoft Shared\Office16\AI\ai.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+3236,amdfendrsr.exe,C:\Windows\System32\DriverStore\FileRepository\amdfendr.inf_amd64_47725f5567f931ee\amdfendrsr.exe,Unavailable,running,None detected,No indicator found
+3040,atieclxx.exe,C:\Windows\System32\DriverStore\FileRepository\u0200697.inf_amd64_df8fa1abd8c0fd97\B026004\atieclxx.exe,Unavailable,running,None detected,No indicator found
+3244,atiesrxx.exe,C:\Windows\System32\DriverStore\FileRepository\u0200697.inf_amd64_df8fa1abd8c0fd97\B026004\atiesrxx.exe,Unavailable,running,None detected,No indicator found
+18080,browserhost.exe,C:\Program Files\McAfee\WebAdvisor\browserhost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+5088,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+8380,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+8848,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+9452,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+9812,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+11324,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+15396,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+15440,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+15624,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+15640,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+15668,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+15892,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+16184,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+16508,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+17112,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+19644,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+20456,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+20916,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+20924,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+21720,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+23724,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+23912,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+24396,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+25764,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+15076,cmd.exe,C:\Windows\System32\cmd.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+21044,cmd.exe,C:\Windows\System32\cmd.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+15008,cncmd.exe,C:\Program Files\AMD\CNext\CNext\cncmd.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+1120,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+4360,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+13560,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+14576,conhost.exe,C:\Windows\System32\conhost.exe,Unavailable,running,None detected,No indicator found
+15084,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+16172,conhost.exe,C:\Windows\System32\conhost.exe,Unavailable,running,None detected,No indicator found
+16468,conhost.exe,C:\Windows\System32\conhost.exe,Unavailable,running,None detected,No indicator found
+17596,conhost.exe,C:\Windows\System32\conhost.exe,Unavailable,running,None detected,No indicator found
+17604,conhost.exe,C:\Windows\System32\conhost.exe,Unavailable,running,None detected,No indicator found
+17644,conhost.exe,C:\Windows\System32\conhost.exe,Unavailable,running,None detected,No indicator found
+17656,conhost.exe,C:\Windows\System32\conhost.exe,Unavailable,running,None detected,No indicator found
+17684,conhost.exe,C:\Windows\System32\conhost.exe,Unavailable,running,None detected,No indicator found
+18472,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+19292,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+21584,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+24368,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+26476,conhost.exe,C:\Windows\System32\conhost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+12772,crashpad_handler.exe,C:\Program Files\WindowsApps\SpotifyAB.SpotifyMusic_1.306.1921.0_x64__zpdnekdrzrea0\crashpad_handler.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+1304,csrss.exe,C:\Windows\System32\csrss.exe,Unavailable,running,None detected,No indicator found
+1460,csrss.exe,C:\Windows\System32\csrss.exe,Unavailable,running,None detected,No indicator found
+4344,ctfmon.exe,C:\Windows\System32\ctfmon.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+12192,dllhost.exe,C:\Windows\System32\dllhost.exe,Unavailable,running,None detected,No indicator found
+17976,dllhost.exe,C:\Windows\System32\dllhost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+18384,dllhost.exe,C:\Windows\System32\dllhost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+1064,dwm.exe,C:\Windows\System32\dwm.exe,Unavailable,running,None detected,No indicator found
+7824,explorer.exe,C:\Windows\explorer.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+1784,fontdrvhost.exe,C:\Windows\System32\fontdrvhost.exe,Unavailable,running,None detected,No indicator found
+1792,fontdrvhost.exe,C:\Windows\System32\fontdrvhost.exe,Unavailable,running,None detected,No indicator found
+1628,lsass.exe,C:\Windows\System32\lsass.exe,Unavailable,running,None detected,No indicator found
+20084,msdtc.exe,C:\Windows\System32\msdtc.exe,Unavailable,running,None detected,No indicator found
+2752,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+3948,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+4228,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+4840,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+11500,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+11808,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+11820,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+11992,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+12276,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+12512,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+12532,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+12612,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+17280,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+17320,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+17528,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+21984,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+22052,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+22408,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+24480,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+25192,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+25516,msedge.exe,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+2924,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\155.0.4283.62\msedgewebview2.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+6832,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\155.0.4283.62\msedgewebview2.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+9744,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\155.0.4283.62\msedgewebview2.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+10084,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\155.0.4283.62\msedgewebview2.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+10896,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\155.0.4283.62\msedgewebview2.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+11012,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\155.0.4283.62\msedgewebview2.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+5048,msrdc.exe,C:\Program Files\WSL\msrdc.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+9120,pet.exe,C:\Users\Varsha Ambre\.vscode\extensions\ms-python.vscode-python-envs-1.20.1-win32-x64\python-env-tools\bin\pet.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+2984,powershell.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+22616,powershell.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+19296,python.exe,C:\Users\Varsha Ambre\AppData\Local\Programs\Python\Python310\python.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+5172,servicehost.exe,C:\Program Files\McAfee\WebAdvisor\servicehost.exe,Unavailable,running,None detected,No indicator found
+1576,services.exe,C:\Windows\System32\services.exe,Unavailable,running,None detected,No indicator found
+5384,sihost.exe,C:\Windows\System32\sihost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+13964,smartscreen.exe,C:\Windows\System32\smartscreen.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+828,smss.exe,C:\Windows\System32\smss.exe,Unavailable,running,None detected,No indicator found
+4828,spoolsv.exe,C:\Windows\System32\spoolsv.exe,Unavailable,running,None detected,No indicator found
+1440,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+1532,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+1696,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+1764,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+1848,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+1856,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+1892,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+1932,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+1984,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+2196,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+2204,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+2212,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+2280,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+2292,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+2328,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+2404,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+2416,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+2424,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+2472,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+2548,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+2660,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+2696,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+2908,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+3184,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+3252,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+3372,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+3392,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+3476,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+3572,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+3748,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+3812,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+3956,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+3988,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+4052,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+4164,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+4200,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+4248,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+4280,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+4460,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+4620,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+4684,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+4836,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+4856,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+4996,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+5020,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+5180,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+5224,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+5248,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+5340,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+5348,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+5364,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+5492,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+5500,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+5516,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+5552,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+5800,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+5960,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+5984,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+6228,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+6404,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+6560,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+7240,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+7560,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+7872,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+8108,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+8868,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+9852,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+12396,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+12468,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+12472,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+12656,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+12956,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+13304,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+13564,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+13616,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+14984,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+15304,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+18088,svchost.exe,C:\Windows\System32\svchost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+18196,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+19220,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+20820,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+21036,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+21104,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+21368,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+22460,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+23580,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+24464,svchost.exe,C:\Windows\System32\svchost.exe,Unavailable,running,None detected,No indicator found
+7024,taskhostw.exe,C:\Windows\System32\taskhostw.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+25312,taskhostw.exe,C:\Windows\System32\taskhostw.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+8008,uihost.exe,C:\Program Files\McAfee\WebAdvisor\uihost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+10056,unsecapp.exe,C:\Windows\System32\wbem\unsecapp.exe,Unavailable,running,None detected,No indicator found
+11700,unsecapp.exe,C:\Windows\System32\wbem\unsecapp.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+23916,vmcompute.exe,C:\Windows\System32\vmcompute.exe,Unavailable,running,None detected,No indicator found
+22752,vmmemWSL,vmmemWSL,Unavailable,running,None detected,No indicator found
+11792,vmwp.exe,C:\Windows\System32\vmwp.exe,Unavailable,running,None detected,No indicator found
+1448,wininit.exe,C:\Windows\System32\wininit.exe,Unavailable,running,None detected,No indicator found
+1556,winlogon.exe,C:\Windows\System32\winlogon.exe,Unavailable,running,None detected,No indicator found
+24708,wsl.exe,C:\Program Files\WSL\wsl.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+2336,wslhost.exe,C:\Program Files\WSL\wslhost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+16436,wslhost.exe,C:\Program Files\WSL\wslhost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+21184,wslhost.exe,C:\Program Files\WSL\wslhost.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+18212,wslrelay.exe,C:\Program Files\WSL\wslrelay.exe,DESKTOP-HI9C74D\Varsha Ambre,running,None detected,No indicator found
+5564,wslservice.exe,C:\Program Files\WSL\wslservice.exe,Unavailable,running,None detected,No indicator found
+20228,python.exe,C:\Users\Varsha Ambre\OneDrive\Desktop\Keylogger_Detection_System\venv\Scripts\python.exe,DESKTOP-HI9C74D\Varsha Ambre,running,Configured keyword match: keylogger; Configured keyword match: keylog,Review

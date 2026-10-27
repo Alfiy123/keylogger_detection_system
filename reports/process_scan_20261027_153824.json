@@ -1,0 +1,2648 @@
+[
+  {
+    "Process ID":15216,
+    "Process Name":"AMDRSServ.exe",
+    "Executable Path":"C:\\Program Files\\AMD\\CNext\\CNext\\AMDRSServ.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":18224,
+    "Process Name":"AMDRSSrcExt.exe",
+    "Executable Path":"C:\\Program Files\\AMD\\CNext\\CNext\\AMDRSSrcExt.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":2988,
+    "Process Name":"AUEPDU.exe",
+    "Executable Path":"C:\\Program Files\\AMD\\Performance Profile Client\\AUEPDU.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":7044,
+    "Process Name":"AUEPMaster.exe",
+    "Executable Path":"C:\\Program Files\\AMD\\Performance Profile Client\\AUEPMaster.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":7244,
+    "Process Name":"AggregatorHost.exe",
+    "Executable Path":"C:\\Windows\\System32\\AggregatorHost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":5164,
+    "Process Name":"AnyDesk.exe",
+    "Executable Path":"C:\\Program Files (x86)\\AnyDesk\\AnyDesk.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":3216,
+    "Process Name":"AppActions.exe",
+    "Executable Path":"C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\AppActions.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":20468,
+    "Process Name":"ApplicationFrameHost.exe",
+    "Executable Path":"C:\\Windows\\System32\\ApplicationFrameHost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":14732,
+    "Process Name":"CPUMetricsServer.exe",
+    "Executable Path":"C:\\Program Files\\AMD\\CNext\\CNext\\CPUMetricsServer.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":2580,
+    "Process Name":"Code.exe",
+    "Executable Path":"C:\\Program Files\\Microsoft VS Code\\Code.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":13876,
+    "Process Name":"Code.exe",
+    "Executable Path":"C:\\Program Files\\Microsoft VS Code\\Code.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":14824,
+    "Process Name":"Code.exe",
+    "Executable Path":"C:\\Program Files\\Microsoft VS Code\\Code.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":14948,
+    "Process Name":"Code.exe",
+    "Executable Path":"C:\\Program Files\\Microsoft VS Code\\Code.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":15036,
+    "Process Name":"Code.exe",
+    "Executable Path":"C:\\Program Files\\Microsoft VS Code\\Code.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":17084,
+    "Process Name":"Code.exe",
+    "Executable Path":"C:\\Program Files\\Microsoft VS Code\\Code.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":18696,
+    "Process Name":"Code.exe",
+    "Executable Path":"C:\\Program Files\\Microsoft VS Code\\Code.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":19168,
+    "Process Name":"Code.exe",
+    "Executable Path":"C:\\Program Files\\Microsoft VS Code\\Code.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":22868,
+    "Process Name":"Code.exe",
+    "Executable Path":"C:\\Program Files\\Microsoft VS Code\\Code.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":24424,
+    "Process Name":"Code.exe",
+    "Executable Path":"C:\\Program Files\\Microsoft VS Code\\Code.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":8364,
+    "Process Name":"CrossDeviceResume.exe",
+    "Executable Path":"C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":8864,
+    "Process Name":"CrossDeviceService.exe",
+    "Executable Path":"C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.26082.74.0_x64__cw5n1h2txyewy\\CrossDeviceService.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":5636,
+    "Process Name":"DefenderAiPlatformHost.exe",
+    "Executable Path":"C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26090.9-0\\DefenderAiPlatformHost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":14700,
+    "Process Name":"DefenderSessionHelper.exe",
+    "Executable Path":"C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26090.9-0\\DefenderSessionHelper.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":16336,
+    "Process Name":"Dell.CoreServices.Client.exe",
+    "Executable Path":"C:\\Program Files\\Dell\\TechHub\\Dell.CoreServices.Client.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":14184,
+    "Process Name":"Dell.Digital.Delivery.Service.SubAgent.exe",
+    "Executable Path":"C:\\Program Files\\Dell\\Dell-AlienwarePurchasedApps\\SubAgent\\Dell.Digital.Delivery.Service.SubAgent.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":21136,
+    "Process Name":"Dell.Remediation.Agent.exe",
+    "Executable Path":"C:\\Program Files\\Dell\\Dell Remediation\\Dell.Remediation.Agent.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":17580,
+    "Process Name":"Dell.TechHub.Analytics.SubAgent.exe",
+    "Executable Path":"C:\\Program Files\\Dell\\DTP\\AnalyticsSubAgent\\Dell.TechHub.Analytics.SubAgent.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":17588,
+    "Process Name":"Dell.TechHub.DataManager.SubAgent.exe",
+    "Executable Path":"C:\\Program Files\\Dell\\DTP\\DataManagerSubAgent\\Dell.TechHub.DataManager.SubAgent.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":16756,
+    "Process Name":"Dell.TechHub.Diagnostics.SubAgent.exe",
+    "Executable Path":"C:\\Program Files\\Dell\\DTP\\DiagnosticsSubAgent\\Dell.TechHub.Diagnostics.SubAgent.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":13140,
+    "Process Name":"Dell.TechHub.Instrumentation.SubAgent.exe",
+    "Executable Path":"C:\\Program Files\\Dell\\DTP\\InstrumentationSubAgent\\Dell.TechHub.Instrumentation.SubAgent.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":18920,
+    "Process Name":"Dell.TechHub.Instrumentation.UserProcess.exe",
+    "Executable Path":"C:\\Program Files\\Dell\\DTP\\InstrumentationSubAgent\\Dell.TechHub.Instrumentation.UserProcess.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":5156,
+    "Process Name":"Dell.TechHub.exe",
+    "Executable Path":"C:\\Program Files\\Dell\\TechHub\\Dell.TechHub.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":13072,
+    "Process Name":"Dell.UCA.Manager.exe",
+    "Executable Path":"C:\\Program Files\\Dell\\MyDell\\Manager\\Dell.UCA.Manager.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":16208,
+    "Process Name":"Dell.UUE.User.SubAgent.exe",
+    "Executable Path":"C:\\Program Files\\Dell\\PlatformUserSubAgent\\Dell.UUE.User.SubAgent.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":16748,
+    "Process Name":"Dell.Update.SubAgent.exe",
+    "Executable Path":"C:\\Program Files (x86)\\Dell\\UpdateService\\DCF\\Dell.Update.SubAgent.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":18812,
+    "Process Name":"DellOptimizer.Systray.exe",
+    "Executable Path":"C:\\Program Files\\Dell\\DellOptimizer\\Console\\DellOptimizer.Systray.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":17700,
+    "Process Name":"DellOptimizer.exe",
+    "Executable Path":"C:\\Program Files\\Dell\\DellOptimizer\\DellOptimizer.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":904,
+    "Process Name":"DellSupportAssistRemedationService.exe",
+    "Executable Path":"C:\\Program Files\\Dell\\SARemediation\\agent\\DellSupportAssistRemedationService.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":23712,
+    "Process Name":"FileCoAuth.exe",
+    "Executable Path":"C:\\Program Files\\Microsoft OneDrive\\26.183.0920.0005\\FileCoAuth.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":23004,
+    "Process Name":"LockApp.exe",
+    "Executable Path":"C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy\\LockApp.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"stopped",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":1620,
+    "Process Name":"LsaIso.exe",
+    "Executable Path":"C:\\Windows\\System32\\LsaIso.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":4116,
+    "Process Name":"MemCompression",
+    "Executable Path":"MemCompression",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":16000,
+    "Process Name":"MicrosoftStartFeedProvider.exe",
+    "Executable Path":"C:\\Program Files\\WindowsApps\\Microsoft.StartExperiencesApp_1.398.2.0_x64__8wekyb3d8bbwe\\MicrosoftStartFeedProvider\\MicrosoftStartFeedProvider.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":5240,
+    "Process Name":"MpDefenderCoreService.exe",
+    "Executable Path":"C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26090.9-0\\MpDefenderCoreService.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":5508,
+    "Process Name":"MsMpEng.exe",
+    "Executable Path":"C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26090.9-0\\MsMpEng.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":14900,
+    "Process Name":"NisSrv.exe",
+    "Executable Path":"C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26090.9-0\\NisSrv.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":5300,
+    "Process Name":"OfficeClickToRun.exe",
+    "Executable Path":"C:\\Program Files\\Common Files\\microsoft shared\\ClickToRun\\OfficeClickToRun.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":19828,
+    "Process Name":"OpenConsole.exe",
+    "Executable Path":"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.24.12741.0_x64__8wekyb3d8bbwe\\OpenConsole.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":13572,
+    "Process Name":"PhoneExperienceHost.exe",
+    "Executable Path":"C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":14404,
+    "Process Name":"RadeonSoftware.exe",
+    "Executable Path":"C:\\Program Files\\AMD\\CNext\\CNext\\RadeonSoftware.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":232,
+    "Process Name":"Registry",
+    "Executable Path":"Registry",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":5264,
+    "Process Name":"RtkAudUService64.exe",
+    "Executable Path":"C:\\Windows\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_e50b3880a3abe2d3\\RtkAudUService64.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":9764,
+    "Process Name":"RtkAudUService64.exe",
+    "Executable Path":"C:\\Windows\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_e50b3880a3abe2d3\\RtkAudUService64.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":16372,
+    "Process Name":"RtkAudUService64.exe",
+    "Executable Path":"C:\\Windows\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_e50b3880a3abe2d3\\RtkAudUService64.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":5540,
+    "Process Name":"RtkBtManServ.exe",
+    "Executable Path":"C:\\Windows\\System32\\DriverStore\\FileRepository\\rtkfilter-windows10-x64.inf_amd64_b237590aeac7c60d\\RtkBtManServ.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":7940,
+    "Process Name":"RuntimeBroker.exe",
+    "Executable Path":"C:\\Windows\\System32\\RuntimeBroker.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":9792,
+    "Process Name":"RuntimeBroker.exe",
+    "Executable Path":"C:\\Windows\\System32\\RuntimeBroker.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":12912,
+    "Process Name":"RuntimeBroker.exe",
+    "Executable Path":"C:\\Windows\\System32\\RuntimeBroker.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":17356,
+    "Process Name":"RuntimeBroker.exe",
+    "Executable Path":"C:\\Windows\\System32\\RuntimeBroker.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":18036,
+    "Process Name":"RuntimeBroker.exe",
+    "Executable Path":"C:\\Windows\\System32\\RuntimeBroker.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":18320,
+    "Process Name":"RuntimeBroker.exe",
+    "Executable Path":"C:\\Windows\\System32\\RuntimeBroker.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":22876,
+    "Process Name":"RuntimeBroker.exe",
+    "Executable Path":"C:\\Windows\\System32\\RuntimeBroker.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":7372,
+    "Process Name":"SearchHost.exe",
+    "Executable Path":"C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":12680,
+    "Process Name":"SearchIndexer.exe",
+    "Executable Path":"C:\\Windows\\System32\\SearchIndexer.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":24508,
+    "Process Name":"SearchProtocolHost.exe",
+    "Executable Path":"C:\\Windows\\System32\\SearchProtocolHost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":1812,
+    "Process Name":"SecurityHealthService.exe",
+    "Executable Path":"C:\\Windows\\System32\\SecurityHealthService.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":15308,
+    "Process Name":"SecurityHealthSystray.exe",
+    "Executable Path":"C:\\Windows\\System32\\SecurityHealthSystray.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":9600,
+    "Process Name":"ShellExperienceHost.exe",
+    "Executable Path":"C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy\\ShellExperienceHost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"stopped",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":2072,
+    "Process Name":"ShellHost.exe",
+    "Executable Path":"C:\\Windows\\System32\\ShellHost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":11852,
+    "Process Name":"SpotifyLauncher.exe",
+    "Executable Path":"C:\\Program Files\\WindowsApps\\SpotifyAB.SpotifyMusic_1.306.1921.0_x64__zpdnekdrzrea0\\SpotifyLauncher.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":7472,
+    "Process Name":"StartMenuExperienceHost.exe",
+    "Executable Path":"C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":21116,
+    "Process Name":"SupportAssistAgent.exe",
+    "Executable Path":"C:\\Program Files\\Dell\\SupportAssistAgent\\bin\\SupportAssistAgent.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":4,
+    "Process Name":"System",
+    "Executable Path":"Unavailable",
+    "User Account":"NT AUTHORITY\\SYSTEM",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":0,
+    "Process Name":"System Idle Process",
+    "Executable Path":"Unavailable",
+    "User Account":"NT AUTHORITY\\SYSTEM",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":20492,
+    "Process Name":"SystemSettings.exe",
+    "Executable Path":"C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"stopped",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":14132,
+    "Process Name":"TextInputHost.exe",
+    "Executable Path":"C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":17792,
+    "Process Name":"TranslucentTB.exe",
+    "Executable Path":"C:\\Program Files\\WindowsApps\\28017CharlesMilette.TranslucentTB_2026.2.0.0_x64__v826wp6bftszj\\TranslucentTB.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":5316,
+    "Process Name":"UltraViewer_Service.exe",
+    "Executable Path":"C:\\Program Files (x86)\\UltraViewer\\UltraViewer_Service.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":188,
+    "Process Name":"Unknown",
+    "Executable Path":"Unavailable",
+    "User Account":"Unavailable",
+    "Status":"stopped",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":18856,
+    "Process Name":"UserOOBEBroker.exe",
+    "Executable Path":"C:\\Windows\\System32\\oobe\\UserOOBEBroker.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":9684,
+    "Process Name":"WINWORD.EXE",
+    "Executable Path":"C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":5308,
+    "Process Name":"WavesAudioService.exe",
+    "Executable Path":"C:\\Windows\\System32\\DriverStore\\FileRepository\\wavesapo12de.inf_amd64_f5cc64c07bd9d637\\WavesAudioService.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":17368,
+    "Process Name":"WavesSvc64.exe",
+    "Executable Path":"C:\\Windows\\System32\\DriverStore\\FileRepository\\wavesapo12de.inf_amd64_f5cc64c07bd9d637\\WavesSvc64.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":5444,
+    "Process Name":"WavesSysSvc64.exe",
+    "Executable Path":"C:\\Windows\\System32\\DriverStore\\FileRepository\\wavesapo12de.inf_amd64_f5cc64c07bd9d637\\WavesSysSvc64.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":9536,
+    "Process Name":"WidgetBoard.exe",
+    "Executable Path":"C:\\Program Files\\WindowsApps\\MicrosoftWindows.Client.WebExperience_526.21100.40.0_x64__cw5n1h2txyewy\\WidgetBoard.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":7732,
+    "Process Name":"WidgetService.exe",
+    "Executable Path":"C:\\Program Files\\WindowsApps\\Microsoft.WidgetsPlatformRuntime_1.6.19.0_x64__8wekyb3d8bbwe\\WidgetService\\WidgetService.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":15312,
+    "Process Name":"WindowsTerminal.exe",
+    "Executable Path":"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.24.12741.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":13940,
+    "Process Name":"WmiPrvSE.exe",
+    "Executable Path":"C:\\Windows\\System32\\wbem\\WmiPrvSE.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":14148,
+    "Process Name":"WmiPrvSE.exe",
+    "Executable Path":"C:\\Windows\\System32\\wbem\\WmiPrvSE.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":15136,
+    "Process Name":"WmiPrvSE.exe",
+    "Executable Path":"C:\\Windows\\System32\\wbem\\WmiPrvSE.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":6136,
+    "Process Name":"ai.exe",
+    "Executable Path":"C:\\Program Files\\Microsoft Office\\root\\vfs\\ProgramFilesCommonX64\\Microsoft Shared\\Office16\\AI\\ai.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":3236,
+    "Process Name":"amdfendrsr.exe",
+    "Executable Path":"C:\\Windows\\System32\\DriverStore\\FileRepository\\amdfendr.inf_amd64_47725f5567f931ee\\amdfendrsr.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":3040,
+    "Process Name":"atieclxx.exe",
+    "Executable Path":"C:\\Windows\\System32\\DriverStore\\FileRepository\\u0200697.inf_amd64_df8fa1abd8c0fd97\\B026004\\atieclxx.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":3244,
+    "Process Name":"atiesrxx.exe",
+    "Executable Path":"C:\\Windows\\System32\\DriverStore\\FileRepository\\u0200697.inf_amd64_df8fa1abd8c0fd97\\B026004\\atiesrxx.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":18080,
+    "Process Name":"browserhost.exe",
+    "Executable Path":"C:\\Program Files\\McAfee\\WebAdvisor\\browserhost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":5088,
+    "Process Name":"chrome.exe",
+    "Executable Path":"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":8380,
+    "Process Name":"chrome.exe",
+    "Executable Path":"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":8848,
+    "Process Name":"chrome.exe",
+    "Executable Path":"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":9452,
+    "Process Name":"chrome.exe",
+    "Executable Path":"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":9812,
+    "Process Name":"chrome.exe",
+    "Executable Path":"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":11324,
+    "Process Name":"chrome.exe",
+    "Executable Path":"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":15396,
+    "Process Name":"chrome.exe",
+    "Executable Path":"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":15440,
+    "Process Name":"chrome.exe",
+    "Executable Path":"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":15624,
+    "Process Name":"chrome.exe",
+    "Executable Path":"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":15640,
+    "Process Name":"chrome.exe",
+    "Executable Path":"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":15668,
+    "Process Name":"chrome.exe",
+    "Executable Path":"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":15892,
+    "Process Name":"chrome.exe",
+    "Executable Path":"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":16184,
+    "Process Name":"chrome.exe",
+    "Executable Path":"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":16508,
+    "Process Name":"chrome.exe",
+    "Executable Path":"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":17112,
+    "Process Name":"chrome.exe",
+    "Executable Path":"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":19644,
+    "Process Name":"chrome.exe",
+    "Executable Path":"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":20456,
+    "Process Name":"chrome.exe",
+    "Executable Path":"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":20916,
+    "Process Name":"chrome.exe",
+    "Executable Path":"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":20924,
+    "Process Name":"chrome.exe",
+    "Executable Path":"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":21720,
+    "Process Name":"chrome.exe",
+    "Executable Path":"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":23724,
+    "Process Name":"chrome.exe",
+    "Executable Path":"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":23912,
+    "Process Name":"chrome.exe",
+    "Executable Path":"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":24396,
+    "Process Name":"chrome.exe",
+    "Executable Path":"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":25764,
+    "Process Name":"chrome.exe",
+    "Executable Path":"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":15076,
+    "Process Name":"cmd.exe",
+    "Executable Path":"C:\\Windows\\System32\\cmd.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":21044,
+    "Process Name":"cmd.exe",
+    "Executable Path":"C:\\Windows\\System32\\cmd.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":15008,
+    "Process Name":"cncmd.exe",
+    "Executable Path":"C:\\Program Files\\AMD\\CNext\\CNext\\cncmd.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":1120,
+    "Process Name":"conhost.exe",
+    "Executable Path":"C:\\Windows\\System32\\conhost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":4360,
+    "Process Name":"conhost.exe",
+    "Executable Path":"C:\\Windows\\System32\\conhost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":13560,
+    "Process Name":"conhost.exe",
+    "Executable Path":"C:\\Windows\\System32\\conhost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":14576,
+    "Process Name":"conhost.exe",
+    "Executable Path":"C:\\Windows\\System32\\conhost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":15084,
+    "Process Name":"conhost.exe",
+    "Executable Path":"C:\\Windows\\System32\\conhost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":16172,
+    "Process Name":"conhost.exe",
+    "Executable Path":"C:\\Windows\\System32\\conhost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":16468,
+    "Process Name":"conhost.exe",
+    "Executable Path":"C:\\Windows\\System32\\conhost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":17596,
+    "Process Name":"conhost.exe",
+    "Executable Path":"C:\\Windows\\System32\\conhost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":17604,
+    "Process Name":"conhost.exe",
+    "Executable Path":"C:\\Windows\\System32\\conhost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":17644,
+    "Process Name":"conhost.exe",
+    "Executable Path":"C:\\Windows\\System32\\conhost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":17656,
+    "Process Name":"conhost.exe",
+    "Executable Path":"C:\\Windows\\System32\\conhost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":17684,
+    "Process Name":"conhost.exe",
+    "Executable Path":"C:\\Windows\\System32\\conhost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":18472,
+    "Process Name":"conhost.exe",
+    "Executable Path":"C:\\Windows\\System32\\conhost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":19292,
+    "Process Name":"conhost.exe",
+    "Executable Path":"C:\\Windows\\System32\\conhost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":21584,
+    "Process Name":"conhost.exe",
+    "Executable Path":"C:\\Windows\\System32\\conhost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":24368,
+    "Process Name":"conhost.exe",
+    "Executable Path":"C:\\Windows\\System32\\conhost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":26476,
+    "Process Name":"conhost.exe",
+    "Executable Path":"C:\\Windows\\System32\\conhost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":12772,
+    "Process Name":"crashpad_handler.exe",
+    "Executable Path":"C:\\Program Files\\WindowsApps\\SpotifyAB.SpotifyMusic_1.306.1921.0_x64__zpdnekdrzrea0\\crashpad_handler.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":1304,
+    "Process Name":"csrss.exe",
+    "Executable Path":"C:\\Windows\\System32\\csrss.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":1460,
+    "Process Name":"csrss.exe",
+    "Executable Path":"C:\\Windows\\System32\\csrss.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":4344,
+    "Process Name":"ctfmon.exe",
+    "Executable Path":"C:\\Windows\\System32\\ctfmon.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":12192,
+    "Process Name":"dllhost.exe",
+    "Executable Path":"C:\\Windows\\System32\\dllhost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":17976,
+    "Process Name":"dllhost.exe",
+    "Executable Path":"C:\\Windows\\System32\\dllhost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":18384,
+    "Process Name":"dllhost.exe",
+    "Executable Path":"C:\\Windows\\System32\\dllhost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":1064,
+    "Process Name":"dwm.exe",
+    "Executable Path":"C:\\Windows\\System32\\dwm.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":7824,
+    "Process Name":"explorer.exe",
+    "Executable Path":"C:\\Windows\\explorer.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":1784,
+    "Process Name":"fontdrvhost.exe",
+    "Executable Path":"C:\\Windows\\System32\\fontdrvhost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":1792,
+    "Process Name":"fontdrvhost.exe",
+    "Executable Path":"C:\\Windows\\System32\\fontdrvhost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":1628,
+    "Process Name":"lsass.exe",
+    "Executable Path":"C:\\Windows\\System32\\lsass.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":20084,
+    "Process Name":"msdtc.exe",
+    "Executable Path":"C:\\Windows\\System32\\msdtc.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":2752,
+    "Process Name":"msedge.exe",
+    "Executable Path":"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":3948,
+    "Process Name":"msedge.exe",
+    "Executable Path":"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":4228,
+    "Process Name":"msedge.exe",
+    "Executable Path":"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":4840,
+    "Process Name":"msedge.exe",
+    "Executable Path":"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":11500,
+    "Process Name":"msedge.exe",
+    "Executable Path":"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":11808,
+    "Process Name":"msedge.exe",
+    "Executable Path":"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":11820,
+    "Process Name":"msedge.exe",
+    "Executable Path":"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":11992,
+    "Process Name":"msedge.exe",
+    "Executable Path":"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":12276,
+    "Process Name":"msedge.exe",
+    "Executable Path":"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":12512,
+    "Process Name":"msedge.exe",
+    "Executable Path":"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":12532,
+    "Process Name":"msedge.exe",
+    "Executable Path":"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":12612,
+    "Process Name":"msedge.exe",
+    "Executable Path":"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":17280,
+    "Process Name":"msedge.exe",
+    "Executable Path":"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":17320,
+    "Process Name":"msedge.exe",
+    "Executable Path":"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":17528,
+    "Process Name":"msedge.exe",
+    "Executable Path":"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":21984,
+    "Process Name":"msedge.exe",
+    "Executable Path":"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":22052,
+    "Process Name":"msedge.exe",
+    "Executable Path":"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":22408,
+    "Process Name":"msedge.exe",
+    "Executable Path":"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":24480,
+    "Process Name":"msedge.exe",
+    "Executable Path":"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":25192,
+    "Process Name":"msedge.exe",
+    "Executable Path":"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":25516,
+    "Process Name":"msedge.exe",
+    "Executable Path":"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":2924,
+    "Process Name":"msedgewebview2.exe",
+    "Executable Path":"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":6832,
+    "Process Name":"msedgewebview2.exe",
+    "Executable Path":"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":9744,
+    "Process Name":"msedgewebview2.exe",
+    "Executable Path":"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":10084,
+    "Process Name":"msedgewebview2.exe",
+    "Executable Path":"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":10896,
+    "Process Name":"msedgewebview2.exe",
+    "Executable Path":"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":11012,
+    "Process Name":"msedgewebview2.exe",
+    "Executable Path":"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedgewebview2.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":5048,
+    "Process Name":"msrdc.exe",
+    "Executable Path":"C:\\Program Files\\WSL\\msrdc.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":9120,
+    "Process Name":"pet.exe",
+    "Executable Path":"C:\\Users\\Varsha Ambre\\.vscode\\extensions\\ms-python.vscode-python-envs-1.20.1-win32-x64\\python-env-tools\\bin\\pet.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":2984,
+    "Process Name":"powershell.exe",
+    "Executable Path":"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":22616,
+    "Process Name":"powershell.exe",
+    "Executable Path":"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":19296,
+    "Process Name":"python.exe",
+    "Executable Path":"C:\\Users\\Varsha Ambre\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":5172,
+    "Process Name":"servicehost.exe",
+    "Executable Path":"C:\\Program Files\\McAfee\\WebAdvisor\\servicehost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":1576,
+    "Process Name":"services.exe",
+    "Executable Path":"C:\\Windows\\System32\\services.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":5384,
+    "Process Name":"sihost.exe",
+    "Executable Path":"C:\\Windows\\System32\\sihost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":13964,
+    "Process Name":"smartscreen.exe",
+    "Executable Path":"C:\\Windows\\System32\\smartscreen.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":828,
+    "Process Name":"smss.exe",
+    "Executable Path":"C:\\Windows\\System32\\smss.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":4828,
+    "Process Name":"spoolsv.exe",
+    "Executable Path":"C:\\Windows\\System32\\spoolsv.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":1440,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":1532,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":1696,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":1764,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":1848,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":1856,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":1892,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":1932,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":1984,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":2196,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":2204,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":2212,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":2280,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":2292,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":2328,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":2404,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":2416,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":2424,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":2472,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":2548,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":2660,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":2696,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":2908,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":3184,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":3252,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":3372,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":3392,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":3476,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":3572,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":3748,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":3812,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":3956,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":3988,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":4052,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":4164,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":4200,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":4248,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":4280,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":4460,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":4620,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":4684,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":4836,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":4856,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":4996,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":5020,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":5180,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":5224,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":5248,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":5340,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":5348,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":5364,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":5492,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":5500,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":5516,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":5552,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":5800,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":5960,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":5984,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":6228,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":6404,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":6560,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":7240,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":7560,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":7872,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":8108,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":8868,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":9852,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":12396,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":12468,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":12472,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":12656,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":12956,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":13304,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":13564,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":13616,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":14984,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":15304,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":18088,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":18196,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":19220,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":20820,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":21036,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":21104,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":21368,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":22460,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":23580,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":24464,
+    "Process Name":"svchost.exe",
+    "Executable Path":"C:\\Windows\\System32\\svchost.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":7024,
+    "Process Name":"taskhostw.exe",
+    "Executable Path":"C:\\Windows\\System32\\taskhostw.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":25312,
+    "Process Name":"taskhostw.exe",
+    "Executable Path":"C:\\Windows\\System32\\taskhostw.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":8008,
+    "Process Name":"uihost.exe",
+    "Executable Path":"C:\\Program Files\\McAfee\\WebAdvisor\\uihost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":10056,
+    "Process Name":"unsecapp.exe",
+    "Executable Path":"C:\\Windows\\System32\\wbem\\unsecapp.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":11700,
+    "Process Name":"unsecapp.exe",
+    "Executable Path":"C:\\Windows\\System32\\wbem\\unsecapp.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":23916,
+    "Process Name":"vmcompute.exe",
+    "Executable Path":"C:\\Windows\\System32\\vmcompute.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":22752,
+    "Process Name":"vmmemWSL",
+    "Executable Path":"vmmemWSL",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":11792,
+    "Process Name":"vmwp.exe",
+    "Executable Path":"C:\\Windows\\System32\\vmwp.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":1448,
+    "Process Name":"wininit.exe",
+    "Executable Path":"C:\\Windows\\System32\\wininit.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":1556,
+    "Process Name":"winlogon.exe",
+    "Executable Path":"C:\\Windows\\System32\\winlogon.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":24708,
+    "Process Name":"wsl.exe",
+    "Executable Path":"C:\\Program Files\\WSL\\wsl.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":2336,
+    "Process Name":"wslhost.exe",
+    "Executable Path":"C:\\Program Files\\WSL\\wslhost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":16436,
+    "Process Name":"wslhost.exe",
+    "Executable Path":"C:\\Program Files\\WSL\\wslhost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":21184,
+    "Process Name":"wslhost.exe",
+    "Executable Path":"C:\\Program Files\\WSL\\wslhost.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":18212,
+    "Process Name":"wslrelay.exe",
+    "Executable Path":"C:\\Program Files\\WSL\\wslrelay.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":5564,
+    "Process Name":"wslservice.exe",
+    "Executable Path":"C:\\Program Files\\WSL\\wslservice.exe",
+    "User Account":"Unavailable",
+    "Status":"running",
+    "Detection Indicators":"None detected",
+    "Risk Classification":"No indicator found"
+  },
+  {
+    "Process ID":20228,
+    "Process Name":"python.exe",
+    "Executable Path":"C:\\Users\\Varsha Ambre\\OneDrive\\Desktop\\Keylogger_Detection_System\\venv\\Scripts\\python.exe",
+    "User Account":"DESKTOP-HI9C74D\\Varsha Ambre",
+    "Status":"running",
+    "Detection Indicators":"Configured keyword match: keylogger; Configured keyword match: keylog",
+    "Risk Classification":"Review"
+  }
+]

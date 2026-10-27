@@ -1,0 +1,2448 @@
+{
+    "project": "Keylogger Detection System",
+    "report_type": "process_scan",
+    "created_at": "2026-10-11T21:14:06",
+    "total_items": 244,
+    "results": [
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 0,
+            "process_name": "System Idle Process",
+            "executable_path": "Unavailable",
+            "username": "NT AUTHORITY\\SYSTEM",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4,
+            "process_name": "System",
+            "executable_path": "Unavailable",
+            "username": "NT AUTHORITY\\SYSTEM",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 188,
+            "process_name": "Unknown",
+            "executable_path": "Unavailable",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 232,
+            "process_name": "Registry",
+            "executable_path": "Registry",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 660,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 844,
+            "process_name": "smss.exe",
+            "executable_path": "C:\\Windows\\System32\\smss.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 1168,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 1192,
+            "process_name": "csrss.exe",
+            "executable_path": "C:\\Windows\\System32\\csrss.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 1196,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 1200,
+            "process_name": "msedge.exe",
+            "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 1336,
+            "process_name": "wininit.exe",
+            "executable_path": "C:\\Windows\\System32\\wininit.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 1344,
+            "process_name": "csrss.exe",
+            "executable_path": "C:\\Windows\\System32\\csrss.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 1408,
+            "process_name": "winlogon.exe",
+            "executable_path": "C:\\Windows\\System32\\winlogon.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 1416,
+            "process_name": "conhost.exe",
+            "executable_path": "C:\\Windows\\System32\\conhost.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 1484,
+            "process_name": "services.exe",
+            "executable_path": "C:\\Windows\\System32\\services.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 1504,
+            "process_name": "LsaIso.exe",
+            "executable_path": "C:\\Windows\\System32\\LsaIso.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 1512,
+            "process_name": "lsass.exe",
+            "executable_path": "C:\\Windows\\System32\\lsass.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 1568,
+            "process_name": "AMDRSServ.exe",
+            "executable_path": "C:\\Program Files\\AMD\\CNext\\CNext\\AMDRSServ.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 1648,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 1676,
+            "process_name": "fontdrvhost.exe",
+            "executable_path": "C:\\Windows\\System32\\fontdrvhost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 1680,
+            "process_name": "fontdrvhost.exe",
+            "executable_path": "C:\\Windows\\System32\\fontdrvhost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 1724,
+            "process_name": "WUDFHost.exe",
+            "executable_path": "C:\\Windows\\System32\\WUDFHost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 1828,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 1868,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 1876,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 1980,
+            "process_name": "dwm.exe",
+            "executable_path": "C:\\Windows\\System32\\dwm.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 2064,
+            "process_name": "DellOptimizer.Systray.exe",
+            "executable_path": "C:\\Program Files\\Dell\\DellOptimizer\\Console\\DellOptimizer.Systray.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 2108,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 2116,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 2124,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 2192,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 2232,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 2248,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 2308,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 2328,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 2336,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 2404,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 2516,
+            "process_name": "atiesrxx.exe",
+            "executable_path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\u0200697.inf_amd64_df8fa1abd8c0fd97\\B026004\\atiesrxx.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 2528,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 2560,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 2612,
+            "process_name": "amdfendrsr.exe",
+            "executable_path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\amdfendr.inf_amd64_47725f5567f931ee\\amdfendrsr.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 2656,
+            "process_name": "chrome.exe",
+            "executable_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 2828,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 2936,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 3068,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 3200,
+            "process_name": "conhost.exe",
+            "executable_path": "C:\\Windows\\System32\\conhost.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 3272,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 3320,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 3332,
+            "process_name": "atieclxx.exe",
+            "executable_path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\u0200697.inf_amd64_df8fa1abd8c0fd97\\B026004\\atieclxx.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 3340,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 3348,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 3356,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 3436,
+            "process_name": "MemCompression",
+            "executable_path": "MemCompression",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 3476,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 3512,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 3520,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 3588,
+            "process_name": "Dell.Update.SubAgent.exe",
+            "executable_path": "C:\\Program Files (x86)\\Dell\\UpdateService\\DCF\\Dell.Update.SubAgent.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 3596,
+            "process_name": "conhost.exe",
+            "executable_path": "C:\\Windows\\System32\\conhost.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 3600,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 3644,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 3656,
+            "process_name": "chrome.exe",
+            "executable_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 3692,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 3780,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 3876,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 3924,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 3992,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4040,
+            "process_name": "msiexec.exe",
+            "executable_path": "C:\\Windows\\System32\\msiexec.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4080,
+            "process_name": "spoolsv.exe",
+            "executable_path": "C:\\Windows\\System32\\spoolsv.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4220,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4280,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4288,
+            "process_name": "Dell.TechHub.exe",
+            "executable_path": "C:\\Program Files\\Dell\\TechHub\\Dell.TechHub.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4296,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4308,
+            "process_name": "AnyDesk.exe",
+            "executable_path": "C:\\Program Files (x86)\\AnyDesk\\AnyDesk.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4324,
+            "process_name": "OfficeClickToRun.exe",
+            "executable_path": "C:\\Program Files\\Common Files\\microsoft shared\\ClickToRun\\OfficeClickToRun.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4352,
+            "process_name": "servicehost.exe",
+            "executable_path": "C:\\Program Files\\McAfee\\WebAdvisor\\servicehost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4384,
+            "process_name": "MpDefenderCoreService.exe",
+            "executable_path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26080.4-0\\MpDefenderCoreService.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4396,
+            "process_name": "Dell.TechHub.DataManager.SubAgent.exe",
+            "executable_path": "C:\\Program Files\\Dell\\DTP\\DataManagerSubAgent\\Dell.TechHub.DataManager.SubAgent.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4400,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4408,
+            "process_name": "msedgewebview2.exe",
+            "executable_path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\154.0.4258.62\\msedgewebview2.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4412,
+            "process_name": "Dell.CoreServices.Client.exe",
+            "executable_path": "C:\\Program Files\\Dell\\TechHub\\Dell.CoreServices.Client.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4440,
+            "process_name": "Dell.UCA.Manager.exe",
+            "executable_path": "C:\\Program Files\\Dell\\MyDell\\Manager\\Dell.UCA.Manager.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4456,
+            "process_name": "taskhostw.exe",
+            "executable_path": "C:\\Windows\\System32\\taskhostw.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4460,
+            "process_name": "Dell.Digital.Delivery.Service.SubAgent.exe",
+            "executable_path": "C:\\Program Files\\Dell\\Dell-AlienwarePurchasedApps\\SubAgent\\Dell.Digital.Delivery.Service.SubAgent.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4468,
+            "process_name": "conhost.exe",
+            "executable_path": "C:\\Windows\\System32\\conhost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4476,
+            "process_name": "RtkAudUService64.exe",
+            "executable_path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_e50b3880a3abe2d3\\RtkAudUService64.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4504,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4520,
+            "process_name": "UltraViewer_Service.exe",
+            "executable_path": "C:\\Program Files (x86)\\UltraViewer\\UltraViewer_Service.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4536,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4564,
+            "process_name": "WavesAudioService.exe",
+            "executable_path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\wavesapo12de.inf_amd64_f5cc64c07bd9d637\\WavesAudioService.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4572,
+            "process_name": "Dell.UUE.User.SubAgent.exe",
+            "executable_path": "C:\\Program Files\\Dell\\PlatformUserSubAgent\\Dell.UUE.User.SubAgent.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4576,
+            "process_name": "RtkBtManServ.exe",
+            "executable_path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\rtkfilter-windows10-x64.inf_amd64_b237590aeac7c60d\\RtkBtManServ.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4584,
+            "process_name": "WavesSysSvc64.exe",
+            "executable_path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\wavesapo12de.inf_amd64_f5cc64c07bd9d637\\WavesSysSvc64.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4640,
+            "process_name": "Dell.TechHub.Analytics.SubAgent.exe",
+            "executable_path": "C:\\Program Files\\Dell\\DTP\\AnalyticsSubAgent\\Dell.TechHub.Analytics.SubAgent.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4648,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4656,
+            "process_name": "MsMpEng.exe",
+            "executable_path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26080.4-0\\MsMpEng.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4708,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4728,
+            "process_name": "DellOptimizer.exe",
+            "executable_path": "C:\\Program Files\\Dell\\DellOptimizer\\DellOptimizer.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4804,
+            "process_name": "conhost.exe",
+            "executable_path": "C:\\Windows\\System32\\conhost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 4816,
+            "process_name": "conhost.exe",
+            "executable_path": "C:\\Windows\\System32\\conhost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 5008,
+            "process_name": "SecurityHealthSystray.exe",
+            "executable_path": "C:\\Windows\\System32\\SecurityHealthSystray.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 5020,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 5164,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 5216,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 5228,
+            "process_name": "FileCoAuth.exe",
+            "executable_path": "C:\\Program Files\\Microsoft OneDrive\\26.173.0906.0008\\FileCoAuth.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 5340,
+            "process_name": "AggregatorHost.exe",
+            "executable_path": "C:\\Windows\\System32\\AggregatorHost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 5360,
+            "process_name": "unsecapp.exe",
+            "executable_path": "C:\\Windows\\System32\\wbem\\unsecapp.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 5524,
+            "process_name": "msedge.exe",
+            "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 5692,
+            "process_name": "powershell.exe",
+            "executable_path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 5740,
+            "process_name": "SearchProtocolHost.exe",
+            "executable_path": "C:\\Windows\\System32\\SearchProtocolHost.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 6040,
+            "process_name": "DefenderSessionHelper.exe",
+            "executable_path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26080.4-0\\DefenderSessionHelper.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 6052,
+            "process_name": "SecurityHealthService.exe",
+            "executable_path": "C:\\Windows\\System32\\SecurityHealthService.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 6132,
+            "process_name": "RadeonSoftware.exe",
+            "executable_path": "C:\\Program Files\\AMD\\CNext\\CNext\\RadeonSoftware.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 6140,
+            "process_name": "chrome.exe",
+            "executable_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 6344,
+            "process_name": "uihost.exe",
+            "executable_path": "C:\\Program Files\\McAfee\\WebAdvisor\\uihost.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 6384,
+            "process_name": "Dell.TechHub.Diagnostics.SubAgent.exe",
+            "executable_path": "C:\\Program Files\\Dell\\DTP\\DiagnosticsSubAgent\\Dell.TechHub.Diagnostics.SubAgent.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 6556,
+            "process_name": "Dell.TechHub.Instrumentation.SubAgent.exe",
+            "executable_path": "C:\\Program Files\\Dell\\DTP\\InstrumentationSubAgent\\Dell.TechHub.Instrumentation.SubAgent.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 7160,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 7200,
+            "process_name": "msdtc.exe",
+            "executable_path": "C:\\Windows\\System32\\msdtc.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 7328,
+            "process_name": "python.exe",
+            "executable_path": "C:\\Users\\Varsha Ambre\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 7364,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 7392,
+            "process_name": "msedge.exe",
+            "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 7412,
+            "process_name": "sihost.exe",
+            "executable_path": "C:\\Windows\\System32\\sihost.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 7464,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 7576,
+            "process_name": "msedge.exe",
+            "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 7680,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 7780,
+            "process_name": "RtkAudUService64.exe",
+            "executable_path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_e50b3880a3abe2d3\\RtkAudUService64.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 7784,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 7852,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 7936,
+            "process_name": "AUEPMaster.exe",
+            "executable_path": "C:\\Program Files\\AMD\\Performance Profile Client\\AUEPMaster.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 8004,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 8060,
+            "process_name": "WmiPrvSE.exe",
+            "executable_path": "C:\\Windows\\System32\\wbem\\WmiPrvSE.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 8196,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 8220,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 8448,
+            "process_name": "msedge.exe",
+            "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 8516,
+            "process_name": "msedge.exe",
+            "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 8668,
+            "process_name": "CrossDeviceResume.exe",
+            "executable_path": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\CrossDeviceResume.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 8672,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 8688,
+            "process_name": "explorer.exe",
+            "executable_path": "C:\\Windows\\explorer.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 8708,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 8720,
+            "process_name": "Code.exe",
+            "executable_path": "C:\\Program Files\\Microsoft VS Code\\Code.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 8752,
+            "process_name": "chrome.exe",
+            "executable_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 8864,
+            "process_name": "conhost.exe",
+            "executable_path": "C:\\Windows\\System32\\conhost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 8876,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 9076,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 9104,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 9116,
+            "process_name": "chrome.exe",
+            "executable_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 9132,
+            "process_name": "conhost.exe",
+            "executable_path": "C:\\Windows\\System32\\conhost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 9352,
+            "process_name": "chrome.exe",
+            "executable_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 9432,
+            "process_name": "SearchHost.exe",
+            "executable_path": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchHost.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 9456,
+            "process_name": "StartMenuExperienceHost.exe",
+            "executable_path": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\\StartMenuExperienceHost.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 9556,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 9604,
+            "process_name": "WidgetBoard.exe",
+            "executable_path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.Client.WebExperience_526.21100.40.0_x64__cw5n1h2txyewy\\WidgetBoard.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 9808,
+            "process_name": "RuntimeBroker.exe",
+            "executable_path": "C:\\Windows\\System32\\RuntimeBroker.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 9816,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 10268,
+            "process_name": "Code.exe",
+            "executable_path": "C:\\Program Files\\Microsoft VS Code\\Code.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 10388,
+            "process_name": "SystemSettings.exe",
+            "executable_path": "C:\\Windows\\ImmersiveControlPanel\\SystemSettings.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 10556,
+            "process_name": "Code.exe",
+            "executable_path": "C:\\Program Files\\Microsoft VS Code\\Code.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 10732,
+            "process_name": "ApplicationFrameHost.exe",
+            "executable_path": "C:\\Windows\\System32\\ApplicationFrameHost.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 10816,
+            "process_name": "msedgewebview2.exe",
+            "executable_path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\154.0.4258.62\\msedgewebview2.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 10932,
+            "process_name": "msedgewebview2.exe",
+            "executable_path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\154.0.4258.62\\msedgewebview2.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 11024,
+            "process_name": "msedgewebview2.exe",
+            "executable_path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\154.0.4258.62\\msedgewebview2.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 11040,
+            "process_name": "msedgewebview2.exe",
+            "executable_path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\154.0.4258.62\\msedgewebview2.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 11284,
+            "process_name": "msedgewebview2.exe",
+            "executable_path": "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\154.0.4258.62\\msedgewebview2.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 11452,
+            "process_name": "conhost.exe",
+            "executable_path": "C:\\Windows\\System32\\conhost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 11540,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 11680,
+            "process_name": "MicrosoftStartFeedProvider.exe",
+            "executable_path": "C:\\Program Files\\WindowsApps\\Microsoft.StartExperiencesApp_1.380.2.0_x64__8wekyb3d8bbwe\\MicrosoftStartFeedProvider\\MicrosoftStartFeedProvider.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 11836,
+            "process_name": "RtkAudUService64.exe",
+            "executable_path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_e50b3880a3abe2d3\\RtkAudUService64.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 11968,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 12200,
+            "process_name": "Code.exe",
+            "executable_path": "C:\\Program Files\\Microsoft VS Code\\Code.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 12212,
+            "process_name": "SpotifyLauncher.exe",
+            "executable_path": "C:\\Program Files\\WindowsApps\\SpotifyAB.SpotifyMusic_1.304.258.0_x64__zpdnekdrzrea0\\SpotifyLauncher.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 12284,
+            "process_name": "chrome.exe",
+            "executable_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 12348,
+            "process_name": "PhoneExperienceHost.exe",
+            "executable_path": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26072.257.0_x64__8wekyb3d8bbwe\\PhoneExperienceHost.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 12392,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 12432,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 12592,
+            "process_name": "crashpad_handler.exe",
+            "executable_path": "C:\\Program Files\\WindowsApps\\SpotifyAB.SpotifyMusic_1.304.258.0_x64__zpdnekdrzrea0\\crashpad_handler.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 12752,
+            "process_name": "UserOOBEBroker.exe",
+            "executable_path": "C:\\Windows\\System32\\oobe\\UserOOBEBroker.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 12756,
+            "process_name": "NisSrv.exe",
+            "executable_path": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26080.4-0\\NisSrv.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 12788,
+            "process_name": "TextInputHost.exe",
+            "executable_path": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\TextInputHost.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 12800,
+            "process_name": "ctfmon.exe",
+            "executable_path": "C:\\Windows\\System32\\ctfmon.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 12836,
+            "process_name": "SearchIndexer.exe",
+            "executable_path": "C:\\Windows\\System32\\SearchIndexer.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 12868,
+            "process_name": "conhost.exe",
+            "executable_path": "C:\\Windows\\System32\\conhost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 13068,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 13168,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 13200,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 13596,
+            "process_name": "msedge.exe",
+            "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 13660,
+            "process_name": "WavesSvc64.exe",
+            "executable_path": "C:\\Windows\\System32\\DriverStore\\FileRepository\\wavesapo12de.inf_amd64_f5cc64c07bd9d637\\WavesSvc64.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 13688,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 13736,
+            "process_name": "Dell.Remediation.Agent.exe",
+            "executable_path": "C:\\Program Files\\Dell\\Dell Remediation\\Dell.Remediation.Agent.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 13752,
+            "process_name": "conhost.exe",
+            "executable_path": "C:\\Windows\\System32\\conhost.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 13896,
+            "process_name": "msedge.exe",
+            "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 13936,
+            "process_name": "cncmd.exe",
+            "executable_path": "C:\\Program Files\\AMD\\CNext\\CNext\\cncmd.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 14024,
+            "process_name": "CPUMetricsServer.exe",
+            "executable_path": "C:\\Program Files\\AMD\\CNext\\CNext\\CPUMetricsServer.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 14072,
+            "process_name": "backgroundTaskHost.exe",
+            "executable_path": "C:\\Windows\\System32\\backgroundTaskHost.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 14120,
+            "process_name": "Dell.TechHub.Instrumentation.UserProcess.exe",
+            "executable_path": "C:\\Program Files\\Dell\\DTP\\InstrumentationSubAgent\\Dell.TechHub.Instrumentation.UserProcess.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 14216,
+            "process_name": "conhost.exe",
+            "executable_path": "C:\\Windows\\System32\\conhost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 14232,
+            "process_name": "unsecapp.exe",
+            "executable_path": "C:\\Windows\\System32\\wbem\\unsecapp.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 14240,
+            "process_name": "cmd.exe",
+            "executable_path": "C:\\Windows\\System32\\cmd.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 14288,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 14484,
+            "process_name": "chrome.exe",
+            "executable_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 14588,
+            "process_name": "RuntimeBroker.exe",
+            "executable_path": "C:\\Windows\\System32\\RuntimeBroker.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 14632,
+            "process_name": "Code.exe",
+            "executable_path": "C:\\Program Files\\Microsoft VS Code\\Code.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 14660,
+            "process_name": "chrome.exe",
+            "executable_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 14676,
+            "process_name": "msedge.exe",
+            "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 14740,
+            "process_name": "msedge.exe",
+            "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 14800,
+            "process_name": "TranslucentTB.exe",
+            "executable_path": "C:\\Program Files\\WindowsApps\\28017CharlesMilette.TranslucentTB_2026.2.0.0_x64__v826wp6bftszj\\TranslucentTB.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 14960,
+            "process_name": "msedge.exe",
+            "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 15416,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 15424,
+            "process_name": "RuntimeBroker.exe",
+            "executable_path": "C:\\Windows\\System32\\RuntimeBroker.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 15448,
+            "process_name": "CrossDeviceService.exe",
+            "executable_path": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.26082.74.0_x64__cw5n1h2txyewy\\CrossDeviceService.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 15532,
+            "process_name": "WidgetService.exe",
+            "executable_path": "C:\\Program Files\\WindowsApps\\Microsoft.WidgetsPlatformRuntime_1.6.19.0_x64__8wekyb3d8bbwe\\WidgetService\\WidgetService.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 15548,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 15924,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 16284,
+            "process_name": "RuntimeBroker.exe",
+            "executable_path": "C:\\Windows\\System32\\RuntimeBroker.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 16316,
+            "process_name": "Code.exe",
+            "executable_path": "C:\\Program Files\\Microsoft VS Code\\Code.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 16356,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 16368,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 16988,
+            "process_name": "RuntimeBroker.exe",
+            "executable_path": "C:\\Windows\\System32\\RuntimeBroker.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 17012,
+            "process_name": "SupportAssistAgent.exe",
+            "executable_path": "C:\\Program Files\\Dell\\SupportAssistAgent\\bin\\SupportAssistAgent.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 17088,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 17208,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 17260,
+            "process_name": "AMDRSSrcExt.exe",
+            "executable_path": "C:\\Program Files\\AMD\\CNext\\CNext\\AMDRSSrcExt.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 17328,
+            "process_name": "dllhost.exe",
+            "executable_path": "C:\\Windows\\System32\\dllhost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 17384,
+            "process_name": "pet.exe",
+            "executable_path": "C:\\Users\\Varsha Ambre\\.vscode\\extensions\\ms-python.vscode-python-envs-1.20.1-win32-x64\\python-env-tools\\bin\\pet.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 17436,
+            "process_name": "AUEPDU.exe",
+            "executable_path": "C:\\Program Files\\AMD\\Performance Profile Client\\AUEPDU.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 17452,
+            "process_name": "chrome.exe",
+            "executable_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 17496,
+            "process_name": "DellSupportAssistRemedationService.exe",
+            "executable_path": "C:\\Program Files\\Dell\\SARemediation\\agent\\DellSupportAssistRemedationService.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 17624,
+            "process_name": "ServiceShell.exe",
+            "executable_path": "C:\\Program Files (x86)\\Dell\\UpdateService\\ServiceShell.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 17640,
+            "process_name": "Code.exe",
+            "executable_path": "C:\\Program Files\\Microsoft VS Code\\Code.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 17820,
+            "process_name": "chrome.exe",
+            "executable_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 18228,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 18308,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 18360,
+            "process_name": "svchost.exe",
+            "executable_path": "C:\\Windows\\System32\\svchost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 18376,
+            "process_name": "chrome.exe",
+            "executable_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 18468,
+            "process_name": "Code.exe",
+            "executable_path": "C:\\Program Files\\Microsoft VS Code\\Code.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 18524,
+            "process_name": "powershell.exe",
+            "executable_path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 19088,
+            "process_name": "AppActions.exe",
+            "executable_path": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\AppActions.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 19096,
+            "process_name": "RuntimeBroker.exe",
+            "executable_path": "C:\\Windows\\System32\\RuntimeBroker.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 19288,
+            "process_name": "python.exe",
+            "executable_path": "C:\\Users\\Varsha Ambre\\OneDrive\\Desktop\\Keylogger_Detection_System\\venv\\Scripts\\python.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "High",
+            "indicators": "Executable path contains: keylogger; Executable path contains: keylog",
+            "status": "Needs investigation"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 19324,
+            "process_name": "SearchProtocolHost.exe",
+            "executable_path": "C:\\Windows\\System32\\SearchProtocolHost.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 19620,
+            "process_name": "Code.exe",
+            "executable_path": "C:\\Program Files\\Microsoft VS Code\\Code.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 19652,
+            "process_name": "ShellHost.exe",
+            "executable_path": "C:\\Windows\\System32\\ShellHost.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 19884,
+            "process_name": "Code.exe",
+            "executable_path": "C:\\Program Files\\Microsoft VS Code\\Code.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 20168,
+            "process_name": "Code.exe",
+            "executable_path": "C:\\Program Files\\Microsoft VS Code\\Code.exe",
+            "username": "DESKTOP-HI9C74D\\Varsha Ambre",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        },
+        {
+            "timestamp": "2026-10-11T21:10:38",
+            "pid": 20352,
+            "process_name": "audiodg.exe",
+            "executable_path": "C:\\Windows\\System32\\audiodg.exe",
+            "username": "Unknown",
+            "risk_level": "Not flagged",
+            "indicators": "",
+            "status": "No matching indicator found"
+        }
+    ]
+}
